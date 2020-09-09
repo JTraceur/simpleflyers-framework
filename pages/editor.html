@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles/editorStyle.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="grid">
+        <div id="pdfViewer">
+            <div id="pageContainer">
+                <div class="page">
+                
+                </div>
+                <div class="page">
+                    
+                </div>
+            </div>
+        </div>
+        <div id="sidebar">
+            <div id="sectionContainer">
+                <div class="section">
+                    <div class="heading">
+                        <h2>RTO & Course</h2>
+                    </div>
+                    <div class="dropper"></div>
+                    <div class="content">
+
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="heading">
+                        <h2>Units</h2>
+                    </div>
+                    <div class="dropper"></div>
+                    <div class="content">
+
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="heading">
+                        <h2>Location, Dates & Fees</h2>
+                    </div>
+                    <div class="dropper"></div>
+                    <div class="content">
+
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="heading">
+                        <h2>Additional Info</h2>
+                    </div>
+                    <div class="dropper"></div>
+                    <div class="content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+
+function setupSideContentToggles(){
+    sections = document.getElementsByClassName("section");
+    sections.forEach((section) => { //Add listener to each section accordingly
+
+        heading = section.getElementsByClassName("heading")[0];
+        dropper = section.getElementsByClassName("dropper")[0];
+
+        heading.addEventListener("mouseDown", toggleSideContent(section));
+        dropper.addEventListener("mouseDown", toggleSideContent(section));
+    })
+}
+
+function toggleSideContent(section){
+    content = section.getElementsByClassName("content")[0];
+    
+}
+
+</script>

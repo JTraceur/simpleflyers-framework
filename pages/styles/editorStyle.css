@@ -29,6 +29,14 @@ body {
     overflow-y: scroll;
 }
 
+#exportFrame {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 620px;
+    height: 800px;
+}
+
 .section {
     box-shadow: inset ;
     display: grid;
@@ -62,4 +70,6 @@ body {
     min-height: 200px;
     background-color: rgba(211, 211, 211, 0.568);
 }
+
+
 

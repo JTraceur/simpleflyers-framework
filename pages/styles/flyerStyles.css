@@ -1,5 +1,6 @@
 :root {
     --logo-height-alignment: 772px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @font-face {
@@ -8,7 +9,7 @@
 }
 
 .page {
-    margin: 2em;
+    margin: 2em 0;
     background-color: white;
     position: relative;
     width: 620px;
@@ -26,10 +27,15 @@
     text-align: center;
 }
 
-#flyerHeader {
+/*---------- PAGE 1 ----------*/
+
+.headerText {
     font-family: "Futura Heavy";
     color: white;
     font-size: 1.65em;
+}
+
+#flyerHeader {
     width: 78%;
     top: 32px;
     margin: 0.25em;
@@ -63,7 +69,7 @@
     left: 10px;
 }
 
-#abvLogo {
+#RTOLogo {
     width: 110px;
     top: 407px;
     left: 225px;
@@ -150,7 +156,6 @@
     justify-content: center;
     bottom: 8px;
 }
-
 #RTOInfo > * {
     font-size: 13px;
     padding: 0 16px;
@@ -158,4 +163,86 @@
 }
 #RTOInfo > *:last-child {
     border-right: none;
+}
+
+/*---------- PAGE 2 ----------*/
+
+#secondaryFlyerHeader {
+    width: 25%;
+    height: 60px;
+    color: white;
+    top: -5px;
+    left: 10px;
+    font-size: 16px;
+}
+
+#websiteLink {
+    top: 5px;
+    right: 20px;
+}
+
+#secondaryRTOLogo {
+    background-color: white;
+    top: 131px;
+    left: 480px;
+    height: 85px;
+}
+
+#unitTable {
+    width: 87%;
+    top: 130px;
+    left: 40px;
+    word-wrap: normal;
+}
+#unitTable tr {
+    text-align: left;
+}
+#unitTable th {
+    color: white;
+    padding-left: 5px;
+    padding: 5px;
+    background-color: rgb(45, 95, 177);
+}
+#unitTable td {
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+#unitTable tr:nth-child(odd) {
+    background-color: rgb(202, 214, 233);
+}
+
+.infoHeader {
+    font-size: 13px;
+    font-family: "Futura Heavy";
+    color: rgb(55, 91, 158);
+    margin: 5px 0;
+    margin-bottom: 2px;
+}
+.infoContent {
+    font-size: 11px;
+    margin-top: 2px;
+}
+
+#complianceInfo {
+    padding: 0 15px;
+    column-count: 2;
+    bottom: 60px;
+    height: 350px;
+}
+
+#prices {
+    padding-left: 15px;
+}
+
+#pricesContainer {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+#pricesContainer > p {
+    margin: 7px 0;
+}
+#price, #concessionPrice {
+    font-weight: bold;
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="styles/editorStyle.css"/>
+    <link rel="stylesheet" href="styles/flyerStyles.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
@@ -8,10 +9,78 @@
         <div id="pdfViewer">
             <div id="pageContainer">
                 <div class="page">
-                
+                    <!-- PDF PAGE 1 -->
+                    <!--Background: -->
+                    <img class="pageBG" src="/resources/images/AutoFly BG.png"/>
+
+                    <!-- Flyer Title -->
+                    <p id="flyerHeader" class="flyerComponent centered">Flyer Title</p>
+
+                    <!-- Stock image: -->
+                    <img id="stockImage" class="flyerComponent" src="/resources/images/stockImages/business.jpg">
+
+                    <!-- RTO Text and Images: -->
+                    <p id="tagLogoText" class="flyerComponent">POWERED BY</p>
+                    <p id="rtoLogoText" class="flyerComponent">DELIVERED BY</p>
+                    <img id="tagLogo" class="flyerComponent" src="/resources/images/RTOs/Training Alliance.png"/>
+                    <img id="abvLogo" class="flyerComponent" src="/resources/images/RTOs/ABV.png"/>
+
+                    <!--Contact Us: -->
+                    <div id="contactUs" class="flyerComponent">
+                    </div>
+
+                    <!-- Course Details: -->
+                    <div id="detailsDivider" class="flyerComponent">
+                        <p class="centered detailsHeader">Course Start</p>
+                        <p class="centered detailsHeader">Duration</p>
+                        <p class="centered detailsHeader">Location</p>
+                        <div>
+                            <p id="startDate" class="centered">1st of January, 2020</p>
+                            <p id="startDateSubtext" class="centered">9am - 4pm</p>
+                        </div>
+                        <div>
+                            <p id="duration" class="centered">12 weeks</p>
+                            <p id="durationSubtext" class="centered">Classroom and practical training</p>
+                        </div>
+                        <div>
+                            <p id="location" class="centered">Level 1, 14 Ventnor Ave</p>
+                            <p id="locationSubtext" class="centered"></p>
+                        </div>
+                    </div>
+
+                    <!-- Course information -->
+                    <div id="infoDivider" class="flyerComponent">
+                        <div id="jobRolesContainer">
+                            <p id="jobRolesHeader">Typical Job Roles:</p>
+                            <ul id="jobRoleList">
+                                <li>Job Role 1</li>
+                                <li>Job Role 2</li>
+                                <li>Job Role 3</li>
+                                <li>Job Role 4</li>
+                            </ul>
+                        </div>
+                        <p id="infoText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit commodo velit, at lobortis magna mollis et. Donec finibus posuere quam, et porta lacus porttitor sed. Suspendisse convallis, nisi non dictum mollis, leo ante vestibulum tellus, eleifend interdum tortor nibh vel nisi. Vestibulum sed porta nisi. Mauris at molestie neque, eget ullamcorper nibh. Nam lobortis tincidunt imperdiet. Proin non ipsum est.</p>
+                    </div>
+
+                    <!-- Compliance Images -->
+                    <img id="jobSkillsLogo" class="flyerComponent" src="/resources/images/complianceImages/jswa_primary_logo.jpg"/>
+                    <img id="skillsReadyLogo" class="flyerComponent" src="/resources/images/complianceImages/jswa_skillsready_txt.jpg"/>
+                    <img id="LFLSLogo" class="flyerComponent" src="/resources/images/complianceImages/LFLS_small.jpg"/>
+                    <img id="NRTLogo" class="flyerComponent" src="/resources/images/complianceImages/nationally recognised training logo.png"/>
+
+                    <!-- RTO Information -->
+                    <span id="RTOInfo" class="flyerComponent">
+                        <p>RTO NAME</p>
+                        <p>RTO NUMBER</p>
+                        <p>RTO ABN</p>
+                        <p>RTO TELEPHONE</p>
+                    </span>
                 </div>
                 <div class="page">
-                    
+                    <!-- PDF PAGE 2 -->
+                    <!-- Background: -->
+                    <img class="pageBG" src="/resources/images/AutoFly BG 2.png"/>
+
                 </div>
             </div>
         </div>
@@ -60,21 +129,27 @@
 
 <script>
 
+setupSideContentToggles();
+
 function setupSideContentToggles(){
+
     sections = document.getElementsByClassName("section");
-    sections.forEach((section) => { //Add listener to each section accordingly
+    for (section of sections){ //Add listener to each section accordingly
 
         heading = section.getElementsByClassName("heading")[0];
         dropper = section.getElementsByClassName("dropper")[0];
 
-        heading.addEventListener("mouseDown", toggleSideContent(section));
-        dropper.addEventListener("mouseDown", toggleSideContent(section));
-    })
+        heading.addEventListener("click", function () {toggleSideContent.call(this)});
+        dropper.addEventListener("click", function () {toggleSideContent.call(this)});
+    }
 }
 
-function toggleSideContent(section){
-    content = section.getElementsByClassName("content")[0];
-    
+function toggleSideContent(){
+    //Get parent section:
+
+    parent = this.parentElement;
+    content = parent.getElementsByClassName("content")[0];
+    content.style.display = ((content.style.display === "none") ? "block" : "none"); // Toggle collapse 
 }
 
 </script>

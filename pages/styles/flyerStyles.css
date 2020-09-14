@@ -1,0 +1,161 @@
+:root {
+    --logo-height-alignment: 772px;
+}
+
+@font-face {
+    font-family: "Futura Heavy";
+    src: url("/resources/fonts/futura/Futura Heavy font.ttf");
+}
+
+.page {
+    margin: 2em;
+    background-color: white;
+    position: relative;
+    width: 620px;
+}
+
+.pageBG {
+    width: 100%;
+}
+
+.flyerComponent {
+    position: absolute;
+}
+
+.centered {
+    text-align: center;
+}
+
+#flyerHeader {
+    font-family: "Futura Heavy";
+    color: white;
+    font-size: 1.65em;
+    width: 78%;
+    top: 32px;
+    margin: 0.25em;
+}
+
+#stockImage {
+    left: 0;
+    top: 95px;
+    max-width: 443px;
+}
+
+#tagLogoText {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: bold;
+    left: 15px;
+    top: 385px;
+}
+
+#rtoLogoText {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: bold;
+    left: 200px;
+    top: 385px;
+}
+
+#tagLogo {
+    width: 190px;
+    top: 437px;
+    left: 10px;
+}
+
+#abvLogo {
+    width: 110px;
+    top: 407px;
+    left: 225px;
+}
+
+#detailsDivider {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 22% 1fr;
+    width: 100%;
+    height: 143px;
+    top: 520px;
+}
+#detailsDivider > * {
+    padding: 0 10px;
+}
+
+.detailsHeader {
+    margin: 0;
+    margin-top: 5px; 
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#infoDivider {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 0 15px;
+    top: 652px;
+    background-color: rgb(0, 190, 235);
+}
+#infoDivider > * {
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#jobRolesHeader {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+#jobRoleList {
+    margin: 0;
+    margin-top: 5px;
+}
+
+#infoText {
+    color: white;
+    font-size: 11px;
+    margin-left: 15px;
+    column-count: 2;
+}
+
+#jobSkillsLogo {
+    left: 25px;
+    top: var(--logo-height-alignment);
+    height: 50px;
+}
+
+#skillsReadyLogo {
+    left: 195px;
+    top: var(--logo-height-alignment);
+    height: 55px;
+}
+
+#LFLSLogo {
+    left: 335px;
+    top: var(--logo-height-alignment);
+    height: 45px;
+}
+
+#NRTLogo {
+    left: 497px;
+    top: calc(var(--logo-height-alignment) - 12px);
+    height: 80px;
+}
+
+#RTOInfo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 8px;
+}
+
+#RTOInfo > * {
+    font-size: 13px;
+    padding: 0 16px;
+    border-right: solid black 1px;
+}
+#RTOInfo > *:last-child {
+    border-right: none;
+}

@@ -25,11 +25,8 @@ body {
     overflow-y: scroll;
 }
 
-.page {
-    margin: 3.2em;
-    background-color: white;
-    min-width: 512px;
-    min-height: 832px;
+#sidebar {
+    overflow-y: scroll;
 }
 
 .section {
@@ -39,10 +36,11 @@ body {
             "head dropper"
             "main main";
     grid-template-columns: auto 50px;
+    transition: 0.3s;
 }
 .section .heading {
     grid-area: head;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(58, 118, 167, 0.473);
 }
 .section .heading:hover, .section .dropper:hover {
     cursor: pointer;
@@ -51,13 +49,17 @@ body {
 .section .heading h2 {
     margin: 0;
     padding: 0.4em 0.5em;
+    user-select: none;
+    pointer-events: none;
 }
 
 .section .dropper {
     grid-area: dropper;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(58, 118, 167, 0.473);
 }
 .section .content {
     grid-area: main;
     min-height: 200px;
+    background-color: rgba(211, 211, 211, 0.568);
 }
+

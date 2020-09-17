@@ -12,6 +12,9 @@ function pdfExport(){
     iframe = document.getElementById("exportFrame");
     iframe.contentDocument.write(exportHTML);
 
-    //Print iframe:
-    iframe.contentWindow.print();
+    //Wait for content to be loaded:
+    setTimeout(function(){
+        //Print iframe:
+        iframe.contentWindow.print();
+    }, 500);
 }

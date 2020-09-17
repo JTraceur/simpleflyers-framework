@@ -1,20 +1,5 @@
-/*#region Printing hack */
-@media print {
-    .headerText {
-        color: rgba(0, 0, 0, 0);
-        text-shadow: 0 0 0;
-    }
-    @media print and (-webkit-min-device-pixel-ratio:0) {
-        .headerText {
-          color: #ccc;
-          -webkit-print-color-adjust: exact;
-        }
-      }
-}
-/*#endregion*/
-
 :root {
-    --logo-height-alignment: 86.5%;
+    --logo-height-alignment: 87.2%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -23,18 +8,14 @@
     src: url("/resources/fonts/futura/Futura Heavy font.ttf");
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
 .page {
-    position: relative;
-    width: 21cm;
-    height: 29.7cm;
-    margin: 0;
+    margin: 2em 0;
     background-color: white;
-    padding: 8px;
+    position: relative;
+    width: 620px;
+    page-break-inside: avoid;
 }
+
 .pageBG {
     width: 100%;
 }
@@ -42,6 +23,7 @@ body {
 .flyerComponent {
     position: absolute;
 }
+
 .centered {
     text-align: center;
 }
@@ -49,28 +31,21 @@ body {
 /*---------- PAGE 1 ----------*/
 
 .headerText {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
+    font-family: "Futura Heavy";
     color: white;
     font-size: 1.65em;
 }
 
 #flyerHeader {
-    width: 75%;
-    top: 3.8%;
+    width: 78%;
+    top: 3.5%;
     margin: 0.25em;
 }
 
-#stockImageContainer {
-    left: 8px;
-    top: 11.5%;
-    width: 69%;
-    height: 33%;
-    overflow: hidden;
-}
-
 #stockImage {
-    height: 100%;
+    left: 0;
+    top: 10.8%;
+    max-width: 71.3%;
 }
 
 #tagLogoText {
@@ -78,7 +53,7 @@ body {
     font-size: 0.6em;
     font-weight: bold;
     left: 2.5%;
-    top: 44.75%;
+    top: 43.75%;
 }
 
 #rtoLogoText {
@@ -86,7 +61,7 @@ body {
     font-size: 0.6em;
     font-weight: bold;
     left: 34%;
-    top: 44.75%;
+    top: 43.75%;
 }
 
 #tagLogo {
@@ -105,9 +80,9 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 22% 1fr;
-    width: 98%;
-    height: 14.8%;
-    top: 58.7%;
+    width: 100%;
+    height: 15%;
+    top: 58.9%;
 }
 #detailsDivider > * {
     padding: 0 0.5em;
@@ -118,16 +93,15 @@ body {
     margin-top: 0.25em; 
     font-family: Verdana;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 0.85em;
 }
 
 #infoDivider {
     display: grid;
     grid-template-columns: auto 1fr;
     padding: 0 0.4em;
-    top: 74%;
-    left: 2%;
-    width: 94%;
+    top: 73.5%;
+    background-color: rgb(0, 190, 235);
 }
 #infoDivider > * {
     padding-right: 0.25em;
@@ -144,13 +118,11 @@ body {
 #jobRoleList {
     margin: 0;
     margin-top: 0.25em;
-    color: white;
-    font-weight: 600;
 }
 
 #infoText {
     color: white;
-    font-size: 0.85em;
+    font-size: 0.70em;
     margin-left: 1em;
     column-count: 2;
 }
@@ -180,7 +152,7 @@ body {
 }
 
 #RTOInfo {
-    width: 98%;
+    width: 100%;
     display: flex;
     justify-content: center;
     bottom: 1%;
@@ -198,29 +170,28 @@ body {
 
 #secondaryFlyerHeader {
     width: 25%;
-    height: 6%;
+    height: 4em;
     color: white;
-    top: 1.2%;
-    left: 2.7%;
+    top: 0;
+    left: 1.9%;
     font-size: 1em;
-    border: 1px solid red;
 }
 
 #websiteLink {
-    top: 1.5%;
-    right: 9%;
+    top: 0.3%;
+    right: 4%;
 }
 
 #secondaryRTOLogo {
     background-color: white;
-    top: 14%;
-    left: 77.5%;
+    top: 15%;
+    left: 77.2%;
     height: 10%;
 }
 
 #unitTable {
     width: 88%;
-    top: 14%;
+    top: 15%;
     left: 6%;
     word-wrap: normal;
 }
@@ -243,8 +214,7 @@ body {
 
 .infoHeader {
     font-size: 0.77em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: "Futura Heavy";
     color: rgb(55, 91, 158);
     margin: 0.25em 0;
     margin-bottom: 0.15em;
@@ -258,9 +228,7 @@ body {
     padding: 0 0.75em;
     column-count: 2;
     bottom: 5%;
-    width: 94.8%;
-    height: 40%;
-    border: 1px solid red;
+    height: 39%;
 }
 
 #prices {

@@ -1,0 +1,489 @@
+﻿parentCourse,unitCode,Unit Title,Type
+CPC20211,CPCCBL2001A,Handle and prepare bricklaying and blocklaying materials,N/A
+CPC20211,CPCCBL2002A,Use bricklaying and blocklaying tools and equipment,N/A
+CPC20211,CPCCCA2002B,Use carpentry tools and equipment,N/A
+CPC20211,CPCCCA2003A,Erect and dismantle formwork for footings and slabs on ground,N/A
+CPC20211,CPCCCA2011A,Handle carpentry materials,N/A
+CPC20211,CPCCCM1012A,Work effectively and sustainably in the construction industry,Core
+CPC20211,CPCCCM1013A,Plan and organise work,Core
+CPC20211,CPCCCM1014A,Conduct workplace communication,Core
+CPC20211,CPCCCM1015A,Carry out measurements and calculations,Core
+CPC20211,CPCCCM2001A,Read and interpret plans and specifications,Core
+CPC20211,CPCCCM2004A,Handle construction materials,N/A
+CPC20211,CPCCCM2006B,Apply basic levelling procedures,N/A
+CPC20211,CPCCCM2009A,Carry out basic demolition,N/A
+CPC20211,CPCCCM2010B,Work safely at heights,N/A
+CPC20211,CPCCCO2013A,Carry out concreting to simple forms,N/A
+CPC20211,CPCCJN2001A,Assemble components,N/A
+CPC20211,CPCCJN2002B,Prepare for off-site manufacturing process,N/A
+CPC20211,CPCCJN3001A,Use static machines,N/A
+CPC20211,CPCCOHS2001A,"Apply OHS requirements, policies and procedures in the construction industry",Core
+CPC20211,CPCCSH2001A,Prepare surfaces,N/A
+CPC20211,CPCCSP2001A,Handle solid plastering materials,N/A
+CPC20211,CPCCSP2002A,Use solid plastering tools and equipment,N/A
+CPC20211,CPCCSP2003A,Prepare surfaces for plastering,N/A
+CPC20211,CPCCST2001A,Prepare for stonemasonry construction process,N/A
+CPC20211,CPCCST2003A,Finish stone,N/A
+CPC20211,CPCCST2006A,Identify and use stone products,N/A
+CPC20211,CPCCWF2001A,Handle wall and floor tiling materials,N/A
+CPC20211,CPCCWF2002A,Use wall and floor tiling tools and equipment,N/A
+CPC20211,CPCCWF3001A,Prepare surfaces for tiling application,N/A
+CPC20211,CPCCWP2001A,Handle waterproofing materials,N/A
+CPC20211,CPCCWP2002A,Use waterproofing tools and equipment,N/A
+CPC20211,CPCCWP2003A,Prepare for construction waterproofing process,N/A
+CPC20211,CPCCWP2004A,Prepare surfaces for waterproofing application,N/A
+CPC20211,RIICCM210D,Install trench support,Elective
+CPC20211,RIIWHS205D,Control traffic with stop-slow bat,Elective
+CPC20211,RIIWMG203D,Drain and dewater civil construction site,Elective
+BSB30115,BSBADM311,Maintain business resources,Elective
+BSB30115,BSBCMM301,Process customer complaints,Elective
+BSB30115,BSBCUS301,Deliver and monitor a service to customers,Elective
+BSB30115,BSBDIV301,Work effectively with diversity,Elective
+BSB30115,BSBFIA301,Maintain financial records,Elective
+BSB30115,BSBFLM303,Contribute to effective workplace relationships,Elective
+BSB30115,BSBFLM305,Support operational plan,Elective
+BSB30115,BSBFLM306,Provide workplace information and resourcing plans,Elective
+BSB30115,BSBFLM309,Support continuous improvement systems and processes,Elective
+BSB30115,BSBFLM311,Support a workplace learning environment,Elective
+BSB30115,BSBFLM312,Contribute to team effectiveness,Elective
+BSB30115,BSBINM301,Organise workplace information,Elective
+BSB30115,BSBINM302,Utilise a knowledge management system,Elective
+BSB30115,BSBINN301,Promote innovation in a team environment,Elective
+BSB30115,BSBIPR301,Comply with organisational requirements for protection and use of intellectual property,Elective
+BSB30115,BSBITU306,Design and produce business documents,Elective
+BSB30115,BSBITU309,Produce desktop published documents,Elective
+BSB30115,BSBITU311,Use simple relational databases,Elective
+BSB30115,BSBITU312,Create electronic presentations,Elective
+BSB30115,BSBITU313,Design and produce digital text documents,Elective
+BSB30115,BSBITU314,Design and produce spreadsheets,Elective
+BSB30115,BSBITU315,Purchase goods and services online,Elective
+BSB30115,BSBPRO301,Recommend products and services,Elective
+BSB30115,BSBPUR301,Purchase goods and services,Elective
+BSB30115,BSBSUS401,Implement and monitor environmentally sustainable work practices,Elective
+BSB30115,BSBWHS302,Apply knowledge of WHS legislation in the workplace,Core
+BSB30115,BSBWHS332X,Apply infection prevention and control procedures to own work activities,Elective
+BSB30115,BSBWOR301,Organise personal work priorities and development,Elective
+BSB30115,BSBWOR302,Work effectively as an off-site worker,Elective
+BSB30115,BSBWRK311,Develop self-awareness,Elective
+BSB30115,BSBWRT301,Write simple documents,Elective
+BSB30115,BSBXCM301,Engage in workplace communication,Elective
+BSB30115,BSBXTW301,Work in a team,Elective
+RII30815,AHCSAW201,Conduct erosion and sediment control activities,Elective
+RII30815,AHCSAW301,Construct conservation earthworks,Elective
+RII30815,BSBDIV301,Work effectively with diversity,Elective
+RII30815,CPCCCM2007B,Use explosive power tools,Elective
+RII30815,CPCCLDG3001A,Licence to perform dogging,Elective
+RII30815,CPCCLSF2001A,"Licence to erect, alter and dismantle scaffolding basic level",Elective
+RII30815,HLTAID003,Provide first aid,Elective
+RII30815,RIIBEF201D,Plan and organise work,Core
+RII30815,RIICCM201D,Carry out measurements and calculations,Core
+RII30815,RIICCM202D,"Identify, locate and protect underground services",Core
+RII30815,RIICCM203D,Read and interpret plans and job specifications,Core
+RII30815,RIICCM204D,Place and fix reinforcement materials,Elective
+RII30815,RIICCM205E,Carry out manual excavation,Core
+RII30815,RIICCM206D,Support plant operations,Core
+RII30815,RIICCM207D,Spread and compact materials manually,Core
+RII30815,RIICCM208D,Carry out basic levelling,Core
+RII30815,RIICCM209D,Carry out concrete work,Elective
+RII30815,RIICCM210D,Install trench support,Elective
+RII30815,RIICCM211D,Erect and dismantle temporary fencing and gates,Elective
+RII30815,RIICOM201D,Communicate in the workplace,Core
+RII30815,RIICRC201D,Repair potholes,Elective
+RII30815,RIICRC208D,Lay pipes,Elective
+RII30815,RIICRC308D,Conduct paver operations,Elective
+RII30815,RIICRC309D,Conduct stabiliser operations,Elective
+RII30815,RIIHAN208D,Perform dogging,Elective
+RII30815,RIIHAN211D,Conduct basic scaffolding operations,Elective
+RII30815,RIIHAN301E,Operate elevating work platform,Elective
+RII30815,RIIHAN308F,Load and unload plant,Elective
+RII30815,RIIHAN309F,Conduct telescopic materials handler operations,Elective
+RII30815,RIIHAN311F,Conduct operations with integrated tool carrier,Elective
+RII30815,RIIMPO315E,Conduct tractor operations,Elective
+RII30815,RIIMPO316E,Conduct self-propelled compactor operations,Elective
+RII30815,RIIMPO317F,Conduct roller operations,Elective
+RII30815,RIIMPO318F,Conduct civil construction skid steer loader operations,Elective
+RII30815,RIIMPO319E,Conduct backhoe/loader operations,Elective
+RII30815,RIIMPO320F,Conduct civil construction excavator operations,Elective
+RII30815,RIIMPO321F,Conduct civil construction wheeled front end loader operations,Elective
+RII30815,RIIMPO322E,Conduct civil construction tracked front end loader operations,Elective
+RII30815,RIIMPO323E,Conduct civil construction dozer operations,Elective
+RII30815,RIIMPO324F,Conduct civil construction grader operations,Elective
+RII30815,RIIMPO325E,Conduct civil construction scraper operations,Elective
+RII30815,RIIMPO326E,Conduct water vehicle operations,Elective
+RII30815,RIIMPO327E,Conduct pipe layer operations,Elective
+RII30815,RIIMPO328E,Conduct continuous bucket trencher operations,Elective
+RII30815,RIIMPO336E,Conduct belly dump truck operations,Elective
+RII30815,RIIMPO337E,Conduct articulated haul truck operations,Elective
+RII30815,RIIMPO338E,Conduct rigid haul truck operations,Elective
+RII30815,RIIQUA201D,Maintain and monitor site quality standards,Elective
+RII30815,RIIRIS201D,Conduct local risk control,Elective
+RII30815,RIIRIS202D,Respond to site based spills,Elective
+RII30815,RIISAM201D,Handle resources and infrastructure materials and safely dispose of nontoxic materials,Core
+RII30815,RIISAM203D,Use hand and power tools,Core
+RII30815,RIISAM204D,Operate small plant and equipment,Core
+RII30815,RIISAM205D,"Cut, weld and bend materials",Elective
+RII30815,RIISAM213D,Position and set up mobile lighting,Elective
+RII30815,RIIVEH304D,Conduct tip truck operations,Elective
+RII30815,RIIWHS201D,Work safely and follow WHS policies and procedures,Core
+RII30815,RIIWHS202D,Enter and work in confined spaces,Elective
+RII30815,RIIWHS204D,Work safely at heights,Elective
+RII30815,RIIWHS205D,Control traffic with stop-slow bat,Elective
+RII30815,RIIWMG203D,Drain and dewater civil construction site,Core
+RII30815,TLILIC0005,Licence to operate a boom-type elevating work platform (boom length 11 metres or more),Elective
+RII30815,TLILIC0008,Licence to operate a non-slewing mobile crane (greater than 3 tonnes capacity),Elective
+RII30115,AHCNAR303,Implement revegetation works,Elective
+RII30115,AHCSAW301,Construct conservation earthworks,Elective
+RII30115,AURKTJ011,"Remove, inspect and fit earthmoving and off-the-road tyres",Elective
+RII30115,AURKTJ012,"Remove, inspect and fit earthmoving and off-the-road wheel and rim assemblies",Elective
+RII30115,BSBDIV301,Work effectively with diversity,Elective
+RII30115,BSBINN301,Promote innovation in a team environment,Elective
+RII30115,BSBPUR301,Purchase goods and services,Elective
+RII30115,CPCCLDG3001A,Licence to perform dogging,Elective
+RII30115,CPCCLSF2001A,"Licence to erect, alter and dismantle scaffolding basic level",Elective
+RII30115,CPCCLSF3001A,"Licence to erect, alter and dismantle scaffolding intermediate level",Elective
+RII30115,HLTAID003,Provide first aid,Elective
+RII30115,MSL913004,Plan and conduct laboratory/field work,Elective
+RII30115,MSL924003,Process and interpret data,Elective
+RII30115,MSL943003,Work safely with instruments that emit ionising radiation,Elective
+RII30115,MSL973013,Perform basic tests,Elective
+RII30115,MSMPER300,Issue work permits,Elective
+RII30115,RIIBEF302D,Monitor site production activities,Elective
+RII30115,RIIBHD301D,Conduct surface blast hole drilling operations,Elective
+RII30115,RIIBHD304D,Set up and prepare for open-cut drilling operations,Elective
+RII30115,RIIBHD305D,Conduct down-hole hammer drilling,Elective
+RII30115,RIIBLA201D,Support shotfiring operations,Elective
+RII30115,RIIBLA205D,"Store, handle and transport explosives",Elective
+RII30115,RIIBLA301D,Conduct surface shotfiring operations,Elective
+RII30115,RIIBLA305D,Conduct secondary blasting,Elective
+RII30115,RIIBLA306D,Conduct accretion firing,Elective
+RII30115,RIIBLA307D,Conduct a blast survey,Elective
+RII30115,RIIBLA308D,Conduct electronic blasting operations,Elective
+RII30115,RIICOM301D,Communicate Information,Elective
+RII30115,RIICOM302D,Communicate workplace information,Elective
+RII30115,RIICRC310D,Construct and maintain roads,Elective
+RII30115,RIIENV201D,Identify and assess environmental and heritage concerns,Core
+RII30115,RIIERR301D,Respond to mine incident,Elective
+RII30115,RIIERR302E,Respond to local emergencies and incidents,Elective
+RII30115,RIIERR308D,Extricate and transport people involved in incidents,Elective
+RII30115,RIIERR310D,Provide support for rescue operations,Elective
+RII30115,RIIGOV201D,Comply with site work processes/procedures,Elective
+RII30115,RIIHAN208D,Perform dogging,Elective
+RII30115,RIIHAN301E,Operate elevating work platform,Elective
+RII30115,RIIHAN302D,Conduct intermediate scaffolding operations,Elective
+RII30115,RIIHAN304E,Conduct slewing crane operations,Elective
+RII30115,RIIHAN305D,Operate a gantry or overhead crane,Elective
+RII30115,RIIHAN307E,Operate a vehicle loading crane,Elective
+RII30115,RIIHAN311F,Conduct operations with integrated tool carrier,Elective
+RII30115,RIIMCO301D,Conduct control centre operations,Elective
+RII30115,RIIMCO302D,Conduct surface miner operations,Elective
+RII30115,RIIMCO303D,Conduct auger miner operations,Elective
+RII30115,RIIMEX301D,Conduct dredging operations,Elective
+RII30115,RIIMEX302D,Assess ground conditions,Elective
+RII30115,RIIMPG301D,Control and monitor automated plant/machinery,Elective
+RII30115,RIIMPO206D,Conduct bulk water truck operations,Elective
+RII30115,RIIMPO301E,Conduct hydraulic excavator operations,Elective
+RII30115,RIIMPO302E,Conduct hydraulic shovel operations,Elective
+RII30115,RIIMPO303E,Conduct rope shovel operations,Elective
+RII30115,RIIMPO304E,Conduct wheel loader operations,Elective
+RII30115,RIIMPO305F,Conduct coal stockpile dozer operations,Elective
+RII30115,RIIMPO306D,Operate plant/machinery on live stockpiles,Elective
+RII30115,RIIMPO308F,Conduct tracked dozer operations,Elective
+RII30115,RIIMPO309F,Conduct wheeled dozer operations,Elective
+RII30115,RIIMPO310F,Conduct grader operations,Elective
+RII30115,RIIMPO312E,Conduct scraper operations,Elective
+RII30115,RIIMPO313E,Conduct face loader operations,Elective
+RII30115,RIIMPO329E,Conduct gradline operations,Elective
+RII30115,RIIMPO330E,Conduct bucket-wheel operations,Elective
+RII30115,RIIMPO331E,Conduct operations with stockpile dozer,Elective
+RII30115,RIIMPO336E,Conduct belly dump truck operations,Elective
+RII30115,RIIMPO337E,Conduct articulated haul truck operations,Elective
+RII30115,RIIMPO338E,Conduct rigid haul truck operations,Elective
+RII30115,RIIPEO206D,Lay and recover cables and hoses,Elective
+RII30115,RIIPEO301D,Conduct conveyor-car high wall mining operations,Elective
+RII30115,RIIPRO301D,Conduct crushing and screening plant operations,Elective
+RII30115,RIIPRO302D,Perform process control room operations,Elective
+RII30115,RIIPRO303D,Conduct sand wash plant operations,Elective
+RII30115,RIIQUA201D,Maintain and monitor site quality standards,Elective
+RII30115,RIIRIS202D,Respond to site based spills,Elective
+RII30115,RIIRIS301D,Apply risk management processes,Core
+RII30115,RIISAM202D,Isolate and access plant,Elective
+RII30115,RIISAM301E,Test operational functions of vehicles and equipment,Elective
+RII30115,RIISAM303D,Shutdown dredge for operator maintenance,Elective
+RII30115,RIISAM304D,"Install, commission and maintain major conveyor equipment and systems",Elective
+RII30115,RIISAM305D,Repair and splice conveyor belting,Elective
+RII30115,RIISAM306D,"Service and maintain conveyors, feeders and hoppers",Elective
+RII30115,RIISAM307D,Service and maintain crushers,Elective
+RII30115,RIISAM308D,Service and maintain screens,Elective
+RII30115,RIISAM309D,Service and maintain pumps,Elective
+RII30115,RIISAM315A,"Manage tyre, wheel and rim assembly applications",Elective
+RII30115,RIISRM301D,Blend stockpile materials,Elective
+RII30115,RIISRM302D,Conduct stockpile reclaiming operations,Elective
+RII30115,RIISRM303D,Move and position materials to form stockpiles,Elective
+RII30115,RIISRM304D,Maintain stockpiles,Elective
+RII30115,RIISTD301D,Take environmental samples and measurements,Elective
+RII30115,RIIVEH201D,Operate light vehicle,Elective
+RII30115,RIIVEH302D,Operate multi-combination vehicle,Elective
+RII30115,RIIVEH303E,Drive heavy combination vehicle,Elective
+RII30115,RIIVEH305E,Operate and maintain a four wheel drive vehicle,Elective
+RII30115,RIIVEH306D,Operate mine service vehicle,Elective
+RII30115,RIIVEH307E,Operate heavy rigid vehicle,Elective
+RII30115,RIIWHS201D,Work safely and follow WHS policies and procedures,Core
+RII30115,RIIWHS301D,Conduct safety and health investigations,Elective
+RII30115,TLIC3004,Drive heavy rigid vehicle,Elective
+RII30115,TLID2022,Conduct weighbridge operations,Elective
+RII30115,TLILIC0002,Licence to operate a vehicle loading crane (capacity 10 metre tonnes and above),Elective
+RII30115,TLILIC0005,Licence to operate a boom-type elevating work platform (boom length 11 metres or more),Elective
+RII30115,TLILIC0006,Licence to operate a bridge and gantry crane,Elective
+RII30115,TLILIC0010,Licence to operate a slewing mobile crane (up to 20 tonnes),Elective
+RII30115,TLILIC2016,Licence to drive a heavy rigid vehicle,Elective
+RII30115,TLILIC3017,Licence to drive a heavy combination vehicle,Elective
+RII30115,TLILIC3018,Licence to drive a multi-combination vehicle,Elective
+TLI20119,BSBCMM301,Process customer complaints,Elective
+TLI20119,BSBCUS201,Deliver a service to customers,Core
+TLI20119,TLIA0003,Complete and check import/export documentation,Elective
+TLI20119,TLIA2013,Receive goods,Elective
+TLI20119,TLIA2014,Use product knowledge to complete work operations,Elective
+TLI20119,TLIA2021,Despatch stock,Elective
+TLI20119,TLIA2022,Participate in stocktakes,Elective
+TLI20119,TLIB0005,Operate pooled equipment,Elective
+TLI20119,TLIB2001,Check and assess operational capabilities of equipment,Elective
+TLI20119,TLID1001,Shift materials safely using manual handling methods,Elective
+TLI20119,TLIE0002,Process workplace documentation,Elective
+TLI20119,TLIE2001,Present routine workplace information,Elective
+TLI20119,TLIE2007,Use communications systems,Elective
+TLI20119,TLIF0009,Ensure the safety of transport activities (Chain of Responsibility),Core
+TLI20119,TLIF1001,Follow work health and safety procedures,Core
+TLI20119,TLIF2010,Apply fatigue management strategies,Elective
+TLI20119,TLIF2018,Operate firefighting equipment,Elective
+TLI20119,TLIG2007,Work in a socially diverse environment,Core
+TLI20119,TLIH2003,Prioritise courier/delivery operations,Elective
+TLI20119,TLIJ2001,Apply quality procedures,Elective
+TLI20119,TLIK2003,Apply keyboard skills,Elective
+TLI20119,TLIK2007,Perform electronic data interchange to transmit shipping documentation,Elective
+TLI20119,TLIK2010,Use infotechnology devices in the workplace,Elective
+TLI20119,TLIL2008,Complete routine administrative tasks,Elective
+TLI20119,TLIL2031,Monitor and process attendance records,Elective
+TLI20119,TLIO0003,Follow security procedures when working with goods and cargo,Elective
+TLI20119,TLIP2014,Capture records into a records keeping system,Elective
+TLI20119,TLIP2017,Maintain control of records,Elective
+TLI20119,TLIP2018,Provide information from and about records,Elective
+TLI20119,TLIP2024,Conduct financial transactions,Elective
+TLI20119,TLIP2029,Prepare and process financial documents,Elective
+TLI20119,TLIP2032,Maintain petty cash account,Elective
+TLI20119,TLIP2033,Sell products and services,Elective
+TLI20119,TLIU2012,Participate in environmentally sustainable work practices,Elective
+TLI20419,BSBCUS201,Deliver a service to customers,Elective
+TLI20419,TLIA0003,Complete and check import/export documentation,Elective
+TLI20419,TLIA0005,Connect and disconnect reefer units,Elective
+TLI20419,TLIA0010,Identify goods and store to specifications,Elective
+TLI20419,TLIA2011,Package goods,Elective
+TLI20419,TLIA2012,Pick and process orders,Elective
+TLI20419,TLIA2013,Receive goods,Elective
+TLI20419,TLIA2014,Use product knowledge to complete work operations,Elective
+TLI20419,TLIA2020,Replenish stock,Elective
+TLI20419,TLIA2021,Despatch stock,Elective
+TLI20419,TLIA2022,Participate in stocktakes,Elective
+TLI20419,TLIA2041,Manually sort mail and parcels,Elective
+TLI20419,TLIA2042,Despatch mail,Elective
+TLI20419,TLIA2043,Consolidate mail,Elective
+TLI20419,TLIA2044,Carry out delivery operations,Elective
+TLI20419,TLIA2045,Process international parcels and letters,Elective
+TLI20419,TLIA2046,Process parcels and letters,Elective
+TLI20419,TLIA2047,Stream mail,Elective
+TLI20419,TLIB0003,Use and maintain minor mechanical equipment,Elective
+TLI20419,TLIB0005,Operate pooled equipment,Elective
+TLI20419,TLIB1028,Maintain and use hand tools,Elective
+TLI20419,TLIB1030,Undertake general site maintenance,Elective
+TLI20419,TLIB2001,Check and assess operational capabilities of equipment,Elective
+TLI20419,TLIB2009,Check conveyor operational status,Elective
+TLI20419,TLIC1051,Operate commercial vehicle,Elective
+TLI20419,TLID0006,Move materials mechanically using automated equipment,Elective
+TLI20419,TLID0007,Operate specialised load shifting equipment,Elective
+TLI20419,TLID0011,Use bulk transfer equipment (dry),Elective
+TLI20419,TLID2003,Handle dangerous goods/hazardous substances,Elective
+TLI20419,TLID2004,Load and unload goods/cargo,Elective
+TLI20419,TLID2010,Operate a forklift,Elective
+TLI20419,TLID2016,Load and unload explosives/dangerous goods,Elective
+TLI20419,TLID2022,Conduct weighbridge operations,Elective
+TLI20419,TLID2045,Operate specialised light load shifting equipment,Elective
+TLI20419,TLID2047,Prepare cargo for transfer with slings,Elective
+TLI20419,TLIE0002,Process workplace documentation,Elective
+TLI20419,TLIE2001,Present routine workplace information,Elective
+TLI20419,TLIE2007,Use communications systems,Elective
+TLI20419,TLIF0009,Ensure the safety of transport activities (Chain of Responsibility),Core
+TLI20419,TLIF1001,Follow work health and safety procedures,Core
+TLI20419,TLIF2006,Apply accident-emergency procedures,Elective
+TLI20419,TLIF2010,Apply fatigue management strategies,Elective
+TLI20419,TLIF2012,Apply safe procedures when handling/transporting dangerous goods or explosives,Elective
+TLI20419,TLIF2018,Operate firefighting equipment,Elective
+TLI20419,TLIG2007,Work in a socially diverse environment,Elective
+TLI20419,TLIH2001,Interpret road maps and navigate pre-determined routes,Elective
+TLI20419,TLIH2003,Prioritise courier/delivery operations,Elective
+TLI20419,TLIJ2001,Apply quality procedures,Elective
+TLI20419,TLIJ2003,Apply grain protection measures,Elective
+TLI20419,TLIJ2004,Implement grain monitoring measures,Elective
+TLI20419,TLIK2003,Apply keyboard skills,Elective
+TLI20419,TLIK2007,Perform electronic data interchange to transmit shipping documentation,Elective
+TLI20419,TLIK2010,Use infotechnology devices in the workplace,Elective
+TLI20419,TLIL1001,Complete workplace orientation/induction procedures,Core
+TLI20419,TLIL2008,Complete routine administrative tasks,Elective
+TLI20419,TLIL2031,Monitor and process attendance records,Elective
+TLI20419,TLILIC0003,Licence to operate a forklift truck,Elective
+TLI20419,TLILIC0004,Licence to operate an order picking forklift truck,Elective
+TLI20419,TLIO0003,Follow security procedures when working with goods and cargo,Elective
+TLI20419,TLIP2014,Capture records into a records keeping system,Elective
+TLI20419,TLIP2017,Maintain control of records,Elective
+TLI20419,TLIP2018,Provide information from and about records,Elective
+TLI20419,TLIP2024,Conduct financial transactions,Elective
+TLI20419,TLIP2029,Prepare and process financial documents,Elective
+TLI20419,TLIP2032,Maintain petty cash account,Elective
+TLI20419,TLIP2033,Sell products and services,Elective
+TLI20419,TLIU1009,Monitor plant and equipment in an environmentally sustainable manner,Elective
+TLI20419,TLIU2012,Participate in environmentally sustainable work practices,Elective
+TLI20419,TLIW2017,Cut and join materials,Elective
+TLI20419,TLIW2020,Undertake pallet repairs,Elective
+TLI20419,TLIW2021,Clean and inspect pallets,Elective
+TLI20419,TLIW2023,Manufacture pallets using manual methods,Elective
+TLI30319,BSBCMM301,Process customer complaints,Elective
+TLI30319,BSBCUS301,Deliver and monitor a service to customers,Elective
+TLI30319,BSBFIA301,Maintain financial records,Elective
+TLI30319,BSBINM301,Organise workplace information,Elective
+TLI30319,BSBPUR301,Purchase goods and services,Elective
+TLI30319,BSBRKG302,Undertake disposal,Elective
+TLI30319,BSBWOR301,Organise personal work priorities and development,Elective
+TLI30319,RIIHAN301E,Operate elevating work platform,Elective
+TLI30319,TLIA0004,Complete receival and despatch documentation,Elective
+TLI30319,TLIA0005,Connect and disconnect reefer units,Elective
+TLI30319,TLIA0006,Coordinate goods to bond premises,Elective
+TLI30319,TLIA0008,Coordinate stocktakes,Elective
+TLI30319,TLIA0009,Coordinate terminal/wharf equipment operations,Elective
+TLI30319,TLIA0010,Identify goods and store to specifications,Elective
+TLI30319,TLIA0013,Maintain container and freight records,Elective
+TLI30319,TLIA0015,Organise receival and despatch operations,Elective
+TLI30319,TLIA0016,Organise warehouse records operations,Elective
+TLI30319,TLIA0017,Process receipt and delivery of containers and cargo,Elective
+TLI30319,TLIA1001,Secure cargo,Elective
+TLI30319,TLIA3026,Monitor storage facilities,Elective
+TLI30319,TLIB0005,Operate pooled equipment,Elective
+TLI30319,TLIB2001,Check and assess operational capabilities of equipment,Elective
+TLI30319,TLIB3002,Test equipment and isolate faults,Elective
+TLI30319,TLID0001,Load and unload vehicles carrying special loads,Elective
+TLI30319,TLID0003,Control lift and movement of crane,Elective
+TLI30319,TLID0006,Move materials mechanically using automated equipment,Elective
+TLI30319,TLID0008,Shift loads using bridge or gantry crane,Elective
+TLI30319,TLID0009,Shift loads using cranes,Elective
+TLI30319,TLID1001,Shift materials safely using manual handling methods,Core
+TLI30319,TLID2004,Load and unload goods/cargo,Elective
+TLI30319,TLID2010,Operate a forklift,Elective
+TLI30319,TLID3011,Conduct specialised forklift operations,Elective
+TLI30319,TLID3015,Identify and label explosives/dangerous goods,Elective
+TLI30319,TLID3023,Use specialised liquid bulk gas transfer equipment,Elective
+TLI30319,TLID3024,Use specialised liquid bulk transfer equipment (gravity/pressurised),Elective
+TLI30319,TLID3027,Prepare for transport of dangerous goods,Elective
+TLI30319,TLID3031,Rig load,Elective
+TLI30319,TLID3033,Operate a vehicle-mounted loading crane,Elective
+TLI30319,TLID3035,Operate a boom type elevating work platform,Elective
+TLI30319,TLID3036,Lift and move load using a mobile crane,Elective
+TLI30319,TLIE0003,Consolidate manifest documentation,Elective
+TLI30319,TLIE0004,Maintain freight records,Elective
+TLI30319,TLIE0005,Undertake rigger/dogger and operators communications,Elective
+TLI30319,TLIE2007,Use communications systems,Elective
+TLI30319,TLIE3002,"Estimate/calculate mass, area and quantify dimensions",Elective
+TLI30319,TLIE3016,Estimate/calculate load shifting requirements for a mobile crane,Elective
+TLI30319,TLIF0006,Administer a fatigue risk management system,Elective
+TLI30319,TLIF0009,Ensure the safety of transport activities (Chain of Responsibility),Core
+TLI30319,TLIF0014,Monitor the safety of transport activities (Chain of Responsibility),Elective
+TLI30319,TLIF2080,Safely access the rail corridor,Elective
+TLI30319,TLIF3003,Implement and monitor work health and safety procedures,Elective
+TLI30319,TLIF3022,Implement/monitor procedures when warehousing/storing dangerous goods/hazardous substances,Elective
+TLI30319,TLIF3091,Apply awareness of dangerous goods and hazardous materials requirements,Elective
+TLI30319,TLIG3002,Lead a work team or group,Elective
+TLI30319,TLIH2001,Interpret road maps and navigate pre-determined routes,Elective
+TLI30319,TLIH3004,"Identify major roads, services and attractions",Elective
+TLI30319,TLIJ3002,Apply quality systems,Elective
+TLI30319,TLIJ3005,"Sample, inspect and test products to specifications",Elective
+TLI30319,TLIJ3006,Implement grain protection procedures,Elective
+TLI30319,TLIK2010,Use infotechnology devices in the workplace,Elective
+TLI30319,TLIL1001,Complete workplace orientation/induction procedures,Elective
+TLI30319,TLIL3002,Undertake employee payroll activities,Elective
+TLI30319,TLIL3003,Conduct induction process,Elective
+TLI30319,TLILIC0003,Licence to operate a forklift truck,Elective
+TLI30319,TLILIC0004,Licence to operate an order picking forklift truck,Elective
+TLI30319,TLILIC0011,Licence to operate a reach stacker (greater than 3 tonnes capacity),Elective
+TLI30319,TLIO0001,Undertake emergency response action to a security threat,Elective
+TLI30319,TLIO0002,Apply and monitor workplace security procedures,Elective
+TLI30319,TLIO0003,Follow security procedures when working with goods and cargo,Elective
+TLI30319,TLIO3004,Conduct control procedures for transferring explosives/dangerous/hazardous/high risk goods,Elective
+TLI30319,TLIU2012,Participate in environmentally sustainable work practices,Elective
+TLI30319,TLIU3011,Implement and monitor environmentally sustainable work practices,Elective
+TLI30319,TLIW3006,Operate computerised mail and parcels sorting equipment,Elective
+TLI30319,TLIW3008,Carry out culler facer canceller operations,Elective
+TLI30319,TLIX0004X,Administer inventory systems,Elective
+TLI30319,TLIX0005X,Administer market supply systems,Elective
+TLI30319,TLIX0013X,Maintain stock control and receivals,Elective
+TLI30319,TLIX0015X,Manage fundamental aspects of supply chains,Elective
+TLI31616,BSBCUS301,Deliver and monitor a service to customers,Elective
+TLI31616,BSBWOR301,Organise personal work priorities and development,Elective
+TLI31616,TLIA3004,Process receipt and delivery of containers and cargo,Elective
+TLI31616,TLIA3010,Coordinate goods to bond premises,Elective
+TLI31616,TLIA3015,Complete receival/despatch documentation,Elective
+TLI31616,TLIA3016,Use inventory systems to organise stock control,Elective
+TLI31616,TLIA3017,Identify products and store to specifications,Elective
+TLI31616,TLIA3018,Organise despatch operations,Elective
+TLI31616,TLIA3019,Organise receival operations,Elective
+TLI31616,TLIA3024,Organise warehouse records operations,Elective
+TLI31616,TLIA3026,Monitor storage facilities,Elective
+TLI31616,TLIA3038,Control and order stock,Elective
+TLI31616,TLIA3039,Receive and store stock,Elective
+TLI31616,TLIB2001,Check and assess operational capabilities of equipment,Elective
+TLI31616,TLIB3002,Test equipment and isolate faults,Elective
+TLI31616,TLID0001,Load and unload vehicles carrying special loads,Elective
+TLI31616,TLID2010,Operate a forklift,Elective
+TLI31616,TLID2013,Move materials mechanically using automated equipment,Elective
+TLI31616,TLID3011,Conduct specialised forklift operations,Elective
+TLI31616,TLID3015,Identify and label explosives/dangerous goods,Elective
+TLI31616,TLID3023,Use specialised liquid bulk gas transfer equipment,Elective
+TLI31616,TLID3024,Use specialised liquid bulk transfer equipment (gravity/pressurised),Elective
+TLI31616,TLID3027,Prepare for transport of dangerous goods,Elective
+TLI31616,TLID3031,Rig load,Elective
+TLI31616,TLID3033,Operate a vehicle-mounted loading crane,Elective
+TLI31616,TLID3035,Operate a boom type elevating work platform,Elective
+TLI31616,TLID3036,Lift and move load using a mobile crane,Elective
+TLI31616,TLID3040,Control lift and movement of crane,Elective
+TLI31616,TLID3043,Shift loads using gantry equipment,Elective
+TLI31616,TLID3044,Shift loads using cranes,Elective
+TLI31616,TLIE3002,"Estimate/calculate mass, area and quantify dimensions",Elective
+TLI31616,TLIE3004,Prepare workplace documents,Elective
+TLI31616,TLIE3012,Consolidate manifest documentation,Elective
+TLI31616,TLIE3015,Undertake rigger/dogger and driver communication,Elective
+TLI31616,TLIE3016,Estimate/calculate load shifting requirements for a mobile crane,Elective
+TLI31616,TLIF0001,"Apply chain of responsibility legislation, regulations and workplace procedures",Core
+TLI31616,TLIF0002,Administer chain of responsibility policies and procedures,Elective
+TLI31616,TLIF1001,Follow work health and safety procedures,Core
+TLI31616,TLIF3003,Implement and monitor work health and safety procedures,Elective
+TLI31616,TLIF3004,Organise work health and safety procedures in the workplace,Elective
+TLI31616,TLIF3022,Implement/monitor procedures when warehousing/storing dangerous goods/hazardous substances,Elective
+TLI31616,TLIF3091,Apply awareness of dangerous goods and hazardous materials requirements,Elective
+TLI31616,TLIG3002,Lead a work team or group,Elective
+TLI31616,TLIJ3002,Apply quality systems,Elective
+TLI31616,TLIJ3005,"Sample, inspect and test products to specifications",Elective
+TLI31616,TLIJ3006,Implement grain protection procedures,Elective
+TLI31616,TLIL1001,Complete workplace orientation/induction procedures,Core
+TLI31616,TLIL3002,Undertake employee payroll activities,Elective
+TLI31616,TLIL3003,Conduct induction process,Elective
+TLI31616,TLILIC0003,Licence to operate a forklift truck,Elective
+TLI31616,TLILIC0004,Licence to operate an order picking forklift truck,Elective
+TLI31616,TLIO2021,Follow security procedures when working with goods and cargo,Elective
+TLI31616,TLIO3004,Conduct control procedures for transferring explosives/dangerous/hazardous/high risk goods,Elective
+TLI31616,TLIO3016,Apply and monitor workplace security procedures,Elective
+TLI31616,TLIP3015,Document a records system,Elective
+TLI31616,TLIP3016,Identify and classify records to be captured,Elective
+TLI31616,TLIP3019,Provide records retrieval service,Elective
+TLI31616,TLIP3020,Sentence records,Elective
+TLI31616,TLIP3021,Undertake disposal program,Elective
+TLI31616,TLIP3022,Undertake movement of records,Elective
+TLI31616,TLIP3023,Destroy records,Elective
+TLI31616,TLIP3026,Maintain financial records in a small business,Elective
+TLI31616,TLIU2012,Participate in environmentally sustainable work practices,Elective
+TLI31616,TLIU3011,Implement and monitor environmentally sustainable work practices,Elective
+TLI31616,TLIW2018,Operate hand held air/power equipment for pallet production processes,Elective

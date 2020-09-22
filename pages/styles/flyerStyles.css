@@ -95,10 +95,63 @@ body {
     left: 2%;
 }
 
-#RTOLogo {
+#ABVLogo {
     width: 17.5%;
     top: 46.8%;
     left: 37%;
+}
+
+#MTACSLogo {
+    width: 21%;
+    top: 51.5%;
+    left: 35%;
+}
+
+#SSTLogo {
+    width: 17.5%;
+    top: 48.45%;
+    left: 37%;
+}
+
+#contactUs {
+    top: 44.75%;
+    left: 61.5%;
+    width: 35%;
+ 
+}
+
+#contactUsHeader {
+    margin-top: 0;
+    margin-bottom: 6.5%;
+    font-size: 2em;
+    font-weight: 700;
+    color: rgb(12, 35, 71);
+    text-align: center;
+    text-decoration: underline;
+}
+
+#contactName {
+    margin-top: 0;
+    margin-bottom: 3%;
+    color: rgb(25, 57, 109);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#contactEmail {
+    margin-top: 0;
+    margin-bottom: 2%;
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+#contactNumber {
+    margin-top: 0;
+    margin-bottom: 2%;
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    font-weight: 700;
 }
 
 #detailsDivider {
@@ -200,22 +253,31 @@ body {
     width: 25%;
     height: 6%;
     color: white;
-    top: 1.2%;
+    top: 1.5%;
     left: 2.7%;
     font-size: 1em;
-    border: 1px solid red;
 }
 
 #websiteLink {
-    top: 1.5%;
+    top: 1.8%;
     right: 9%;
 }
 
-#secondaryRTOLogo {
+#ABVLogo2 {
     background-color: white;
     top: 14%;
     left: 77.5%;
     height: 10%;
+}
+
+.table th{
+    color: white;
+    padding: 5px;
+    background-color: rgb(45, 95, 177);
+}
+
+.table tr:nth-child(odd) {
+    background-color: rgb(202, 214, 233);
 }
 
 #unitTable {
@@ -227,18 +289,10 @@ body {
 #unitTable tr {
     text-align: left;
 }
-#unitTable th {
-    color: white;
-    padding: 5px;
-    background-color: rgb(45, 95, 177);
-}
 #unitTable td {
     padding-left: 0.25em;
     padding-top: 0.1em;
     padding-bottom: 0.1em;
-}
-#unitTable tr:nth-child(odd) {
-    background-color: rgb(202, 214, 233);
 }
 
 .infoHeader {
@@ -257,10 +311,9 @@ body {
 #complianceInfo {
     padding: 0 0.75em;
     column-count: 2;
-    bottom: 5%;
+    bottom: 7%;
     width: 94.8%;
-    height: 40%;
-    border: 1px solid red;
+    height: auto;
 }
 
 #prices {

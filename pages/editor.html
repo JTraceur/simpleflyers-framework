@@ -18,17 +18,24 @@
 
                     <!-- Stock image: -->
                     <div id="stockImageContainer" class="flyerComponent">
-                        <img id="stockImage" class="flyerComponent" src="/resources/images/stockImages/business.jpg">
+                        <img id="stockImage" src="/resources/images/stockImages/business.jpg">
                     </div>
                     
                     <!-- RTO Text and Images: -->
                     <p id="tagLogoText" class="flyerComponent">POWERED BY</p>
                     <p id="rtoLogoText" class="flyerComponent">DELIVERED BY</p>
                     <img id="tagLogo" class="flyerComponent" src="/resources/images/RTOs/Training Alliance.png"/>
-                    <img id="RTOLogo" class="flyerComponent" src="/resources/images/RTOs/ABV.png"/>
+
+                    <img id="ABVLogo" class="flyerComponent hidden" src="/resources/images/RTOs/ABV.png"/>
+                    <img id="MTACSLogo" class="flyerComponent hidden" src="/resources/images/RTOs/MTACS - large.png" />
+                    <img id="SSTLogo" class="flyerComponent hidden" src="/resources/images/RTOs/Stirling Skills Training Logo.png"/>
 
                     <!--Contact Us: -->
                     <div id="contactUs" class="flyerComponent">
+                        <p id="contactUsHeader">Contact Us</p>
+                        <p id="contactName">Kevin Kelly</p>
+                        <p id="contactEmail">kkelly@trainingalliance.com.au</p>
+                        <p id="contactNumber">0428 939 663</p>
                     </div>
 
                     <!-- Course Details: -->
@@ -88,29 +95,15 @@
                     <p id="websiteLink" class="flyerComponent headerText">www.trainingalliance.com.au</p>
 
                     <!-- Unit Table and RTO logo -->
-                    <table id="unitTable" class="flyerComponent">
+                    <table id="unitTable" class="flyerComponent table">
                         <tr>
                             <th style="width: 27%;">Unit Code</th>
                             <th>Unit Title</th>
                         </tr>
-                        <tr>
-                            <td>ASD1729</td>
-                            <td>Some random unit title 1</td>
-                        </tr>
-                        <tr>
-                            <td>ASD1730</td>
-                            <td>Some random unit title 2</td>
-                        </tr>
-                        <tr>
-                            <td>ASD1731</td>
-                            <td>Some random unit title 3</td>
-                        </tr>
-                        <tr>
-                            <td>ASD1732</td>
-                            <td>Some random unit title 4</td>
-                        </tr>
                     </table>
-                    <img id="secondaryRTOLogo" class="flyerComponent" src="/resources/images/RTOs/ABV.png"/>
+                    <img id="ABVLogo2" class="flyerComponent hidden" src="/resources/images/RTOs/ABV.png"/>
+                    <img id="MTACSLogo2" class="flyerComponent hidden" src="/resources/images/RTOs/MTACS - large.png"/>
+                    <img id="SSTLogo2" class="flyerComponent hidden" src="/resources/images/RTOs/Stirling Skills Training Logo.png"/>
 
                     <!-- Compliance info -->
                     <div id="complianceInfo" class="flyerComponent">
@@ -166,7 +159,39 @@
                     </div>
                     <div class="dropper"></div>
                     <div class="content">
+                        <div id="sidebarInputsRTO" onchange="RTOSelect()">
 
+                            <input type="radio" id="abv" name="RTOSelect">
+                            <label for="abv"><img src="/resources/images/RTOs/ABV.png"/></label>
+
+                            <input type="radio" id="mtacs" name="RTOSelect">
+                            <label for="mtacs"><img src="/resources/images/RTOs/MTACS - large.png" style="padding: 20% 0;"/></label>
+
+                            <input type="radio" id="sst" name="RTOSelect">
+                            <label for="sst"><img src="/resources/images/RTOs/Stirling Skills Training Logo.png"/></label>
+                        </div>
+                        <div id="courseSelector" onchange="courseSelect()">
+                            <h3>Course:</h3>
+                            <select id="abvCourses" class="hidden" name="abvCourses" >
+                                <option value="CPC20211">CPC2011 - Cert II in Construction Pathways</option>
+                                <option value="BSB30115">BSB30115 - Cert III in Business</option>
+                                <option value="RII30815">RII30815 - Cert III in Civil Construction Plant Operations</option>
+                                <option value="RII30115">RII30115 - Cert III in Surface Extraction Operations</option>
+                                <option value="TLI30319">TLI30319 - Cert III in Supply Chain Operations</option>
+                                <option value="TLI31616">TLI31616 - Cert III in Warehousing Operations</option>
+                            </select>
+                            <select id="mtacsCourses" class="hidden" name="mtacsCourses">
+                                <option value="CPC20211">CPC2011 - Cert II in Construction Pathways</option>
+                                <option value="RII30815">RII30815 - Cert III in Civil Construction Plant Operations</option>
+                                <option value="RII30115">RII30115 - Cert III in Surface Extraction Operations</option>
+                                <option value="TLI20119">TLI20119 - Cert II in Logistics</option>
+                                <option value="TLI20419">TLI20419 - Cert II in Warehousing Operations</option>
+                            </select>
+                            <select id="sstCourses" class="hidden" name="sstCourses">
+                                <option value="TLI31616">TLI31616 - Cert III in Warehousing Operations</option>
+                                <option value="TLI20419">TLI20419 - Cert II in Warehousing Operations</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
                 <div class="section">
@@ -174,8 +199,16 @@
                         <h2>Units</h2>
                     </div>
                     <div class="dropper"></div>
-                    <div class="content">
-
+                    <div class="content" style="display: none">
+                        <div id="unitSelector" onchange="unitSelect()">
+                            <table id="unitSelectorTable" class="table">
+                                <tr>
+                                    <th></th>
+                                    <th>Unit Code</th>
+                                    <th>Unit Title</th>
+                                </tr>
+                            </table>
+                        </div> 
                     </div>
                 </div>
                 <div class="section">
@@ -183,8 +216,28 @@
                         <h2>Location, Dates & Fees</h2>
                     </div>
                     <div class="dropper"></div>
-                    <div class="content">
-
+                    <div class="content" style="display: none">
+                        <div id="courseDetailsContainer">
+                            <h3>Date text:</h3>
+                            <input id="dateTextInput" type='text' onchange="detailsChange(this, 'courseStart')"/>
+                            <h4>Date subtext:</h4>
+                            <input id="dateSubTextInput" type='text' onchange="detailsChange(this, 'courseStartSubtext')"/>
+                            <br><br>
+                            <h3>Duration text:</h3>
+                            <input id="durationTextInput" type='text' onchange="detailsChange(this, 'duration')"/>
+                            <h4>Duration subtext:</h4>
+                            <input id="durationSubTextInput" type='text' onchange="detailsChange(this, 'durationSubtext')"/>
+                            <br><br>
+                            <h3>Location text:</h3>
+                            <input id="locationTextInput" type='text' onchange="detailsChange(this, 'location')"/>
+                            <h4>Location subtext:</h4>
+                            <input id="locationSubTextInput" type='text' onchange="detailsChange(this, 'locationSubtext')"/>
+                            <br><br>
+                            <h3>Concession fee:</h3>
+                            <input id="concessionFeeInput" type='number' onchange="detailsChange(this, 'concessionFee')"/>
+                            <h3>Normal fee:</h3>
+                            <input id="feeInput" type='number' onchange="detailsChange(this, 'normalFee')"/>
+                        </div>
                     </div>
                 </div>
                 <div class="section">
@@ -192,7 +245,7 @@
                         <h2>Additional Info</h2>
                     </div>
                     <div class="dropper"></div>
-                    <div class="content">
+                    <div class="content" style="display: none">
 
                     </div>
                 </div>
@@ -214,6 +267,315 @@
 </style>
 
 <script>
+//#region Classes:
+class contact {
+    constructor(firstname, lastname, email, phonenumber){
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.email = email;
+        this.phonenumber = phonenumber;
+    }
+}
+
+class course{
+    constructor(courseCode="", courseName="No course selected", courseInfo="", abv=false, mtacs=false, sst=false, jobRoles=[],units=[]){
+        this.courseCode = courseCode;
+        this.courseName = courseName;
+        this.courseInfo = courseInfo;
+        this.abv = abv;
+        this.mtacs = mtacs;
+        this.sst = sst;
+        this.jobRoles = jobRoles;
+        this.units = units;
+    }
+}
+
+class unit {
+    constructor(unitCode="", unitName="", type=null){
+        this.unitCode = unitCode;
+        this.unitName = unitName;
+        this.unitType = type;
+    }
+}
+
+class flyer {
+    constructor(rto, courseCode, contactPerson=new contact("John", "Smith", "jsmith@example.com", "0428 939 663"), courseObj= new course(), courseStart="", courseStartSubtext="", duration="", durationSubtext="", location="", locationSubtext="", normalFee=0, concessionFee=0, selectedUnits = []){
+        this.rto = rto;
+        this.courseCode = courseCode;
+        this.contact = contactPerson;
+        this.courseObj = courseObj;
+        this.courseStart = courseStart;
+        this.courseStartSubtext = courseStartSubtext;
+        this.duration = duration;
+        this.durationSubtext = durationSubtext;
+        this.location = location;
+        this.locationSubtext = locationSubtext;
+        this.normalFee = normalFee;
+        this.concessionFee = concessionFee;
+        this.selectedUnits = selectedUnits;
+    }
+}
+
+//Watch for updates to flyer:
+const watcher = {
+    set(obj, prop, value){
+        Reflect.set(obj, prop, value); // Set requested value
+        if (prop !== "courseCode"){
+            updateFlyerPreview(editingFlyer); // Also call flyer update
+        }else{
+            editingFlyer.courseObj = _getCourse(value); // Set course value if courseCode is set
+        }
+    }
+}
+//#endregion
+
+var editingFlyer = new Proxy(new flyer("null", "Course Title"), watcher); //Global var, proxy waits for changes and updates flyer preview.
+
+//Fetch courses and their units:
+courses = undefined;
+fetch("../resources/dataResources/coursesAndUnits.json")
+    .then(response => response.json())
+    .then(data => courses = data.courses);
+
+//#region Flyer Logic
+function _getCourse(courseCode) { //Returns course object from the global list
+    if (courses !== undefined){
+
+        for (c of courses){
+            if (c.courseCode == courseCode){
+                return new course(c.courseCode, c.courseTitle, c.courseInfo,c.abv, c.mtacs, c.sst, c.jobRoles, c.units);
+            }
+        }
+    }
+    return new course("", "No course selected!");
+}
+
+function _getUnit(unitCode) {
+    for (c of courses){
+        for (u of c.units){
+            if (u.unitCode == unitCode){
+                return new unit(u.unitCode, u.unitTitle, u.type);
+                break;
+            }
+        }
+    }
+    return new unit();
+}
+
+function _clearTable() {
+    table = document.getElementById("unitTable");
+    table.innerHTML = `
+        <tr>
+            <th style="width: 27%;">Unit Code</th>
+            <th>Unit Title</th>
+        </tr>
+    `;
+}
+
+function detailsChange(element, propertyName) {
+
+    editingFlyer[propertyName] = element.value;
+}
+
+function updateFlyerPreview() {
+    
+    //#region RTO:
+    abvCourseSelector = document.getElementById("abvCourses");
+    mtacsCourseSelector = document.getElementById("mtacsCourses");
+    sstCourseSelector = document.getElementById("sstCourses");
+
+    //RTO logos 1:
+    abvLogo1 = document.getElementById("ABVLogo");
+    mtacsLogo1 = document.getElementById("MTACSLogo");
+    sstLogo1 = document.getElementById("SSTLogo");
+
+    //RTO Logos 2:
+    abvLogo2 = document.getElementById("ABVLogo2");
+    mtacsLogo2 = document.getElementById("MTACSLogo2");
+    sstLogo2 = document.getElementById("SSTLogo2");
+
+    //Page footer:
+    rtoInfoElement = document.getElementById("RTOInfo");
+    rtoInfoElement.innerHTML = ""; //Clear inner html
+
+    //ABV:
+    if (editingFlyer.rto == "abv"){
+
+        //Courses:
+        abvCourseSelector.classList.remove('hidden');
+        mtacsCourseSelector.classList.add('hidden');
+        sstCourseSelector.classList.add('hidden');
+
+        //Logo 1
+        abvLogo1.classList.remove('hidden');
+        mtacsLogo1.classList.add('hidden');
+        sstLogo1.classList.add('hidden');
+
+        //Logo 2
+        abvLogo2.classList.remove('hidden');
+        mtacsLogo2.classList.add('hidden');
+        sstLogo2.classList.add('hidden');
+
+        //Footer
+        rtoInfoElement.innerHTML = `
+            <p>Austrlian Business & Vocational Training</p>
+            <p>RTO CODE: 52592</p>
+            <p>ABN: 63 156 477 986</p>
+            <p>PHONE: 08 6110 0800</p>`
+        
+    }
+    //MTACS:
+    else if (editingFlyer.rto == "mtacs"){
+
+        abvCourseSelector.classList.add('hidden');
+        mtacsCourseSelector.classList.remove('hidden');
+        sstCourseSelector.classList.add('hidden');
+
+        //Logo 1
+        abvLogo1.classList.add('hidden');
+        mtacsLogo1.classList.remove('hidden');
+        sstLogo1.classList.add('hidden');
+
+        //Logo 2
+        abvLogo2.classList.add('hidden');
+        mtacsLogo2.classList.remove('hidden');
+        sstLogo2.classList.add('hidden');
+
+        rtoInfoElement.innerHTML = `
+            <p>Mining, Transport & Construction Services</p>
+            <p>RTO CODE: 52053</p>
+            <p>ABN: 48 125 710 787</p>
+            <p>PHONE: 08 6110 0800</p>`
+    }
+    //SST / default:
+    else {
+
+        abvCourseSelector.classList.add('hidden');
+        mtacsCourseSelector.classList.add('hidden');
+        sstCourseSelector.classList.remove('hidden');
+
+        //Logo 1
+        abvLogo1.classList.add('hidden');
+        mtacsLogo1.classList.add('hidden');
+        sstLogo1.classList.remove('hidden');
+
+        //Logo 2
+        abvLogo2.classList.add('hidden');
+        mtacsLogo2.classList.add('hidden');
+        sstLogo2.classList.remove('hidden');
+
+        rtoInfoElement.innerHTML = `
+            <p>Stirling Skills Training</p>
+            <p>RTO CODE: 5272</p>
+            <p>ABN: 11 988 581 763</p>
+            <p>PHONE: 08 6110 0800</p>`
+    }
+    //#endregion
+
+    //#region Course:
+    flyerHeader1 = document.getElementById("flyerHeader");
+    flyerHeader2 = document.getElementById("secondaryFlyerHeader");
+
+    flyerHeader1.innerHTML = editingFlyer.courseObj.courseCode + " " + editingFlyer.courseObj.courseName;
+    flyerHeader2.innerHTML = flyerHeader1.innerHTML;
+
+    //#region Course information:
+    roleList = document.getElementById("jobRoleList");
+    roleList.innerHTML = "";
+    for (role of editingFlyer.courseObj.jobRoles){
+        roleList.innerHTML += "<li>" + role + "</li>";
+    }
+
+    infoText = document.getElementById("infoText");
+    infoText.innerHTML = editingFlyer.courseObj.courseInfo;
+
+    //#endregion
+    //#endregion
+
+    //#region Units:
+    _clearTable();
+    table = document.getElementById("unitTable");
+
+    for(u of editingFlyer.selectedUnits){
+        row = table.insertRow();
+        row.insertCell(0).innerHTML = u.unitCode;
+        row.insertCell(1).innerHTML = u.unitName;
+    }
+    //#endregion
+
+    //#region Details:
+    
+
+    //#endregion
+}
+
+function RTOSelect() {
+    
+    //Detect which input is currently selected:
+    inputElements = document.getElementById("sidebarInputsRTO").getElementsByTagName("INPUT");
+    for (var i = 0; i < inputElements.length; i ++){
+        if (inputElements[i].checked){
+            editingFlyer.rto = inputElements[i].id;
+            console.log("Changed RTO to " + editingFlyer.rto);
+            editingFlyer.courseCode = "";
+            break;
+        }
+    }
+}
+
+function courseSelect() {
+    
+    //Get current RTO:
+    rto = editingFlyer.rto;
+    selector = undefined;
+
+    if (rto == "abv"){
+        selector = document.getElementById("abvCourses");
+    }
+    else if (rto == "mtacs"){
+        selector = document.getElementById("mtacsCourses");
+    }
+    else {
+        selector = document.getElementById("sstCourses");
+    }
+
+    //Change flyer course:
+    editingFlyer.courseCode = selector.value;
+
+
+    //#region Update units section:
+    //Select div:
+
+    unitTable = document.getElementById("unitSelectorTable");
+
+    for (_unit of editingFlyer.courseObj.units){
+        _row = unitTable.insertRow(-1);
+        cell1 = _row.insertCell(0);
+        cell2 = _row.insertCell(1);
+        cell3 = _row.insertCell(2);
+
+        cell1.innerHTML = "<input id='" + _unit.unitCode + "' type='checkbox' onchange='unitSelect()' name='unitSelection'/>";
+        cell2.innerHTML = "<label for='" + _unit.unitCode + "'>" + _unit.unitCode + "</label>";
+        cell3.innerHTML = "<label for='" + _unit.unitCode + "'>" + _unit.unitTitle + "</label>";
+    }
+    //#endregion
+}
+
+function unitSelect() {
+    //Get ticked boxes:
+
+    inputs = document.getElementById("unitSelectorTable").getElementsByTagName("INPUT");
+    selectedUnits = []
+    for (input of inputs){
+        if (input.checked){
+            //Get unit and push into array
+            selectedUnits.push(_getUnit(input.id));
+        }
+    }
+    editingFlyer.selectedUnits = selectedUnits;
+}
+//#endregion
+
 
 //#region Sidebar
 setupSideContentToggles();
@@ -239,5 +601,4 @@ function toggleSideContent(){
     content.style.display = ((content.style.display === "none") ? "block" : "none"); // Toggle collapse 
 }
 //#endregion
-
 </script>

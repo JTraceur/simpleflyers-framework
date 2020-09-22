@@ -1,0 +1,2562 @@
+{
+    "courses": [
+        {
+            "courseCode": "CPC20211",
+            "courseTitle": "Certificate II in Construction Pathways",
+            "courseInfo": "This qualification provides a pathway to the primary trades in the construction industry with the exception of plumbing. This certificate II allows for inclusion of skills suited for entry to off-site occupations, such as joinery and shopfitting as well as carpentry, bricklaying and other occupations in general construction.",
+            "abv": true,
+            "mtacs": true,
+            "sst": false,
+            "jobRoles": [
+                "Labourer",
+                "Site Assistant",
+                "General Hand",
+                "Junior Trades Assistant"
+            ],
+            "units": [
+                {
+                    "unitCode": "CPCCBL2001A",
+                    "unitTitle": "Handle and prepare bricklaying and blocklaying materials",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCBL2002A",
+                    "unitTitle": "Use bricklaying and blocklaying tools and equipment",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCCA2002B",
+                    "unitTitle": "Use carpentry tools and equipment",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCCA2003A",
+                    "unitTitle": "Erect and dismantle formwork for footings and slabs on ground",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCCA2011A",
+                    "unitTitle": "Handle carpentry materials",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCCM1012A",
+                    "unitTitle": "Work effectively and sustainably in the construction industry",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "CPCCCM1013A",
+                    "unitTitle": "Plan and organise work",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "CPCCCM1014A",
+                    "unitTitle": "Conduct workplace communication",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "CPCCCM1015A",
+                    "unitTitle": "Carry out measurements and calculations",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "CPCCCM2001A",
+                    "unitTitle": "Read and interpret plans and specifications",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "CPCCCM2004A",
+                    "unitTitle": "Handle construction materials",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCCM2006B",
+                    "unitTitle": "Apply basic levelling procedures",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCCM2009A",
+                    "unitTitle": "Carry out basic demolition",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCCM2010B",
+                    "unitTitle": "Work safely at heights",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCCO2013A",
+                    "unitTitle": "Carry out concreting to simple forms",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCJN2001A",
+                    "unitTitle": "Assemble components",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCJN2002B",
+                    "unitTitle": "Prepare for off-site manufacturing process",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCJN3001A",
+                    "unitTitle": "Use static machines",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCOHS2001A",
+                    "unitTitle": "Apply OHS requirements, policies and procedures in the construction industry",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "CPCCSH2001A",
+                    "unitTitle": "Prepare surfaces",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCSP2001A",
+                    "unitTitle": "Handle solid plastering materials",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCSP2002A",
+                    "unitTitle": "Use solid plastering tools and equipment",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCSP2003A",
+                    "unitTitle": "Prepare surfaces for plastering",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCST2001A",
+                    "unitTitle": "Prepare for stonemasonry construction process",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCST2003A",
+                    "unitTitle": "Finish stone",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCST2006A",
+                    "unitTitle": "Identify and use stone products",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCWF2001A",
+                    "unitTitle": "Handle wall and floor tiling materials",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCWF2002A",
+                    "unitTitle": "Use wall and floor tiling tools and equipment",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCWF3001A",
+                    "unitTitle": "Prepare surfaces for tiling application",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCWP2001A",
+                    "unitTitle": "Handle waterproofing materials",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCWP2002A",
+                    "unitTitle": "Use waterproofing tools and equipment",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCWP2003A",
+                    "unitTitle": "Prepare for construction waterproofing process",
+                    "type": null
+                },
+                {
+                    "unitCode": "CPCCWP2004A",
+                    "unitTitle": "Prepare surfaces for waterproofing application",
+                    "type": null
+                },
+                {
+                    "unitCode": "RIICCM210D",
+                    "unitTitle": "Install trench support",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIWHS205D",
+                    "unitTitle": "Control traffic with stop-slow bat",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIWMG203D",
+                    "unitTitle": "Drain and dewater civil construction site",
+                    "type": "Elective"
+                }
+            ]
+        },
+        {
+            "courseCode": "BSB30115",
+            "courseTitle": "Certificate III in Business",
+            "courseInfo": "This qualification reflects the varied roles of individuals across different industry sectors who apply a broad range of competencies using some discretion, judgment and relevant theoretical knowledge. They may provide technical advice and support to a team.",
+            "abv": true,
+            "mtacs": false,
+            "sst": false,
+            "jobRoles": [
+                "Office Manager",
+                "Office Administrator",
+                "Receptionist"
+            ],
+            "units": [
+                {
+                    "unitCode": "BSBADM311",
+                    "unitTitle": "Maintain business resources",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBCMM301",
+                    "unitTitle": "Process customer complaints",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBCUS301",
+                    "unitTitle": "Deliver and monitor a service to customers",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBDIV301",
+                    "unitTitle": "Work effectively with diversity",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBFIA301",
+                    "unitTitle": "Maintain financial records",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBFLM303",
+                    "unitTitle": "Contribute to effective workplace relationships",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBFLM305",
+                    "unitTitle": "Support operational plan",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBFLM306",
+                    "unitTitle": "Provide workplace information and resourcing plans",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBFLM309",
+                    "unitTitle": "Support continuous improvement systems and processes",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBFLM311",
+                    "unitTitle": "Support a workplace learning environment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBFLM312",
+                    "unitTitle": "Contribute to team effectiveness",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBINM301",
+                    "unitTitle": "Organise workplace information",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBINM302",
+                    "unitTitle": "Utilise a knowledge management system",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBINN301",
+                    "unitTitle": "Promote innovation in a team environment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBIPR301",
+                    "unitTitle": "Comply with organisational requirements for protection and use of intellectual property",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBITU306",
+                    "unitTitle": "Design and produce business documents",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBITU309",
+                    "unitTitle": "Produce desktop published documents",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBITU311",
+                    "unitTitle": "Use simple relational databases",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBITU312",
+                    "unitTitle": "Create electronic presentations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBITU313",
+                    "unitTitle": "Design and produce digital text documents",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBITU314",
+                    "unitTitle": "Design and produce spreadsheets",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBITU315",
+                    "unitTitle": "Purchase goods and services online",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBPRO301",
+                    "unitTitle": "Recommend products and services",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBPUR301",
+                    "unitTitle": "Purchase goods and services",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBSUS401",
+                    "unitTitle": "Implement and monitor environmentally sustainable work practices",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBWHS302",
+                    "unitTitle": "Apply knowledge of WHS legislation in the workplace",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "BSBWHS332X",
+                    "unitTitle": "Apply infection prevention and control procedures to own work activities",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBWOR301",
+                    "unitTitle": "Organise personal work priorities and development",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBWOR302",
+                    "unitTitle": "Work effectively as an off-site worker",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBWRK311",
+                    "unitTitle": "Develop self-awareness",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBWRT301",
+                    "unitTitle": "Write simple documents",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBXCM301",
+                    "unitTitle": "Engage in workplace communication",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBXTW301",
+                    "unitTitle": "Work in a team",
+                    "type": "Elective"
+                }
+            ]
+        },
+        {
+            "courseCode": "RII30815",
+            "courseTitle": "Certificate III in Civil Construction Plant Operations",
+            "courseInfo": "This qualification will provide you with the practical skills and knowledge to undertake a range of manual labouring tasks and operate machinery on construction sites. You will learn about safe work practices, using equipment, tools and effective communication. You will also learn skills that will enable you to read plans, take measurements, drain sites, spread and compact materials manually, assist in excavation, operate small plant and organise your work.",
+            "abv": true,
+            "mtacs": true,
+            "sst": false,
+            "jobRoles": [
+                "Civil Construction Plant Operator",
+                "Civil Foundations Worker",
+                "Construction Worker Site Maintenance",
+                "Mobile Plant Operator"
+            ],
+            "units": [
+                {
+                    "unitCode": "AHCSAW201",
+                    "unitTitle": "Conduct erosion and sediment control activities",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "AHCSAW301",
+                    "unitTitle": "Construct conservation earthworks",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBDIV301",
+                    "unitTitle": "Work effectively with diversity",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "CPCCCM2007B",
+                    "unitTitle": "Use explosive power tools",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "CPCCLDG3001A",
+                    "unitTitle": "Licence to perform dogging",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "CPCCLSF2001A",
+                    "unitTitle": "Licence to erect, alter and dismantle scaffolding basic level",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "HLTAID003",
+                    "unitTitle": "Provide first aid",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIBEF201D",
+                    "unitTitle": "Plan and organise work",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "RIICCM201D",
+                    "unitTitle": "Carry out measurements and calculations",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "RIICCM202D",
+                    "unitTitle": "Identify, locate and protect underground services",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "RIICCM203D",
+                    "unitTitle": "Read and interpret plans and job specifications",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "RIICCM204D",
+                    "unitTitle": "Place and fix reinforcement materials",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIICCM205E",
+                    "unitTitle": "Carry out manual excavation",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "RIICCM206D",
+                    "unitTitle": "Support plant operations",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "RIICCM207D",
+                    "unitTitle": "Spread and compact materials manually",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "RIICCM208D",
+                    "unitTitle": "Carry out basic levelling",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "RIICCM209D",
+                    "unitTitle": "Carry out concrete work",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIICCM210D",
+                    "unitTitle": "Install trench support",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIICCM211D",
+                    "unitTitle": "Erect and dismantle temporary fencing and gates",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIICOM201D",
+                    "unitTitle": "Communicate in the workplace",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "RIICRC201D",
+                    "unitTitle": "Repair potholes",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIICRC208D",
+                    "unitTitle": "Lay pipes",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIICRC308D",
+                    "unitTitle": "Conduct paver operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIICRC309D",
+                    "unitTitle": "Conduct stabiliser operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIHAN208D",
+                    "unitTitle": "Perform dogging",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIHAN211D",
+                    "unitTitle": "Conduct basic scaffolding operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIHAN301E",
+                    "unitTitle": "Operate elevating work platform",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIHAN308F",
+                    "unitTitle": "Load and unload plant",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIHAN309F",
+                    "unitTitle": "Conduct telescopic materials handler operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIHAN311F",
+                    "unitTitle": "Conduct operations with integrated tool carrier",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO315E",
+                    "unitTitle": "Conduct tractor operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO316E",
+                    "unitTitle": "Conduct self-propelled compactor operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO317F",
+                    "unitTitle": "Conduct roller operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO318F",
+                    "unitTitle": "Conduct civil construction skid steer loader operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO319E",
+                    "unitTitle": "Conduct backhoe/loader operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO320F",
+                    "unitTitle": "Conduct civil construction excavator operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO321F",
+                    "unitTitle": "Conduct civil construction wheeled front end loader operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO322E",
+                    "unitTitle": "Conduct civil construction tracked front end loader operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO323E",
+                    "unitTitle": "Conduct civil construction dozer operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO324F",
+                    "unitTitle": "Conduct civil construction grader operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO325E",
+                    "unitTitle": "Conduct civil construction scraper operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO326E",
+                    "unitTitle": "Conduct water vehicle operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO327E",
+                    "unitTitle": "Conduct pipe layer operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO328E",
+                    "unitTitle": "Conduct continuous bucket trencher operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO336E",
+                    "unitTitle": "Conduct belly dump truck operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO337E",
+                    "unitTitle": "Conduct articulated haul truck operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO338E",
+                    "unitTitle": "Conduct rigid haul truck operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIQUA201D",
+                    "unitTitle": "Maintain and monitor site quality standards",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIRIS201D",
+                    "unitTitle": "Conduct local risk control",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIRIS202D",
+                    "unitTitle": "Respond to site based spills",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIISAM201D",
+                    "unitTitle": "Handle resources and infrastructure materials and safely dispose of nontoxic materials",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "RIISAM203D",
+                    "unitTitle": "Use hand and power tools",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "RIISAM204D",
+                    "unitTitle": "Operate small plant and equipment",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "RIISAM205D",
+                    "unitTitle": "Cut, weld and bend materials",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIISAM213D",
+                    "unitTitle": "Position and set up mobile lighting",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIVEH304D",
+                    "unitTitle": "Conduct tip truck operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIWHS201D",
+                    "unitTitle": "Work safely and follow WHS policies and procedures",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "RIIWHS202D",
+                    "unitTitle": "Enter and work in confined spaces",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIWHS204D",
+                    "unitTitle": "Work safely at heights",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIWHS205D",
+                    "unitTitle": "Control traffic with stop-slow bat",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIWMG203D",
+                    "unitTitle": "Drain and dewater civil construction site",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "TLILIC0005",
+                    "unitTitle": "Licence to operate a boom-type elevating work platform (boom length 11 metres or more)",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLILIC0008",
+                    "unitTitle": "Licence to operate a non-slewing mobile crane (greater than 3 tonnes capacity)",
+                    "type": "Elective"
+                }
+            ]
+        },
+        {
+            "courseCode": "RII30115",
+            "courseTitle": "Certificate III in Surface Extraction Operations",
+            "courseInfo": "This qualification reflects the role of employees such as production operators in an open cut mine or quarry who perform tasks involving a broad range of skilled applications in a varied work context, using some discretion and judgement in selecting equipment, services or contingency measures.",
+            "abv": true,
+            "mtacs": true,
+            "sst": false,
+            "jobRoles": [
+                "Mineral Processing Technician",
+                "Quarry Mobile Plant Operator",
+                "Surface Coal Operator"
+            ],
+            "units": [
+                {
+                    "unitCode": "AHCNAR303",
+                    "unitTitle": "Implement revegetation works",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "AHCSAW301",
+                    "unitTitle": "Construct conservation earthworks",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "AURKTJ011",
+                    "unitTitle": "Remove, inspect and fit earthmoving and off-the-road tyres",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "AURKTJ012",
+                    "unitTitle": "Remove, inspect and fit earthmoving and off-the-road wheel and rim assemblies",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBDIV301",
+                    "unitTitle": "Work effectively with diversity",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBINN301",
+                    "unitTitle": "Promote innovation in a team environment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBPUR301",
+                    "unitTitle": "Purchase goods and services",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "CPCCLDG3001A",
+                    "unitTitle": "Licence to perform dogging",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "CPCCLSF2001A",
+                    "unitTitle": "Licence to erect, alter and dismantle scaffolding basic level",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "CPCCLSF3001A",
+                    "unitTitle": "Licence to erect, alter and dismantle scaffolding intermediate level",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "HLTAID003",
+                    "unitTitle": "Provide first aid",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "MSL913004",
+                    "unitTitle": "Plan and conduct laboratory/field work",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "MSL924003",
+                    "unitTitle": "Process and interpret data",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "MSL943003",
+                    "unitTitle": "Work safely with instruments that emit ionising radiation",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "MSL973013",
+                    "unitTitle": "Perform basic tests",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "MSMPER300",
+                    "unitTitle": "Issue work permits",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIBEF302D",
+                    "unitTitle": "Monitor site production activities",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIBHD301D",
+                    "unitTitle": "Conduct surface blast hole drilling operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIBHD304D",
+                    "unitTitle": "Set up and prepare for open-cut drilling operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIBHD305D",
+                    "unitTitle": "Conduct down-hole hammer drilling",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIBLA201D",
+                    "unitTitle": "Support shotfiring operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIBLA205D",
+                    "unitTitle": "Store, handle and transport explosives",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIBLA301D",
+                    "unitTitle": "Conduct surface shotfiring operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIBLA305D",
+                    "unitTitle": "Conduct secondary blasting",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIBLA306D",
+                    "unitTitle": "Conduct accretion firing",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIBLA307D",
+                    "unitTitle": "Conduct a blast survey",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIBLA308D",
+                    "unitTitle": "Conduct electronic blasting operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIICOM301D",
+                    "unitTitle": "Communicate Information",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIICOM302D",
+                    "unitTitle": "Communicate workplace information",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIICRC310D",
+                    "unitTitle": "Construct and maintain roads",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIENV201D",
+                    "unitTitle": "Identify and assess environmental and heritage concerns",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "RIIERR301D",
+                    "unitTitle": "Respond to mine incident",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIERR302E",
+                    "unitTitle": "Respond to local emergencies and incidents",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIERR308D",
+                    "unitTitle": "Extricate and transport people involved in incidents",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIERR310D",
+                    "unitTitle": "Provide support for rescue operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIGOV201D",
+                    "unitTitle": "Comply with site work processes/procedures",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIHAN208D",
+                    "unitTitle": "Perform dogging",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIHAN301E",
+                    "unitTitle": "Operate elevating work platform",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIHAN302D",
+                    "unitTitle": "Conduct intermediate scaffolding operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIHAN304E",
+                    "unitTitle": "Conduct slewing crane operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIHAN305D",
+                    "unitTitle": "Operate a gantry or overhead crane",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIHAN307E",
+                    "unitTitle": "Operate a vehicle loading crane",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIHAN311F",
+                    "unitTitle": "Conduct operations with integrated tool carrier",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMCO301D",
+                    "unitTitle": "Conduct control centre operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMCO302D",
+                    "unitTitle": "Conduct surface miner operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMCO303D",
+                    "unitTitle": "Conduct auger miner operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMEX301D",
+                    "unitTitle": "Conduct dredging operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMEX302D",
+                    "unitTitle": "Assess ground conditions",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPG301D",
+                    "unitTitle": "Control and monitor automated plant/machinery",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO206D",
+                    "unitTitle": "Conduct bulk water truck operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO301E",
+                    "unitTitle": "Conduct hydraulic excavator operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO302E",
+                    "unitTitle": "Conduct hydraulic shovel operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO303E",
+                    "unitTitle": "Conduct rope shovel operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO304E",
+                    "unitTitle": "Conduct wheel loader operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO305F",
+                    "unitTitle": "Conduct coal stockpile dozer operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO306D",
+                    "unitTitle": "Operate plant/machinery on live stockpiles",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO308F",
+                    "unitTitle": "Conduct tracked dozer operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO309F",
+                    "unitTitle": "Conduct wheeled dozer operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO310F",
+                    "unitTitle": "Conduct grader operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO312E",
+                    "unitTitle": "Conduct scraper operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO313E",
+                    "unitTitle": "Conduct face loader operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO329E",
+                    "unitTitle": "Conduct gradline operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO330E",
+                    "unitTitle": "Conduct bucket-wheel operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO331E",
+                    "unitTitle": "Conduct operations with stockpile dozer",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO336E",
+                    "unitTitle": "Conduct belly dump truck operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO337E",
+                    "unitTitle": "Conduct articulated haul truck operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIMPO338E",
+                    "unitTitle": "Conduct rigid haul truck operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIPEO206D",
+                    "unitTitle": "Lay and recover cables and hoses",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIPEO301D",
+                    "unitTitle": "Conduct conveyor-car high wall mining operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIPRO301D",
+                    "unitTitle": "Conduct crushing and screening plant operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIPRO302D",
+                    "unitTitle": "Perform process control room operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIPRO303D",
+                    "unitTitle": "Conduct sand wash plant operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIQUA201D",
+                    "unitTitle": "Maintain and monitor site quality standards",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIRIS202D",
+                    "unitTitle": "Respond to site based spills",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIRIS301D",
+                    "unitTitle": "Apply risk management processes",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "RIISAM202D",
+                    "unitTitle": "Isolate and access plant",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIISAM301E",
+                    "unitTitle": "Test operational functions of vehicles and equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIISAM303D",
+                    "unitTitle": "Shutdown dredge for operator maintenance",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIISAM304D",
+                    "unitTitle": "Install, commission and maintain major conveyor equipment and systems",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIISAM305D",
+                    "unitTitle": "Repair and splice conveyor belting",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIISAM306D",
+                    "unitTitle": "Service and maintain conveyors, feeders and hoppers",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIISAM307D",
+                    "unitTitle": "Service and maintain crushers",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIISAM308D",
+                    "unitTitle": "Service and maintain screens",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIISAM309D",
+                    "unitTitle": "Service and maintain pumps",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIISAM315A",
+                    "unitTitle": "Manage tyre, wheel and rim assembly applications",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIISRM301D",
+                    "unitTitle": "Blend stockpile materials",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIISRM302D",
+                    "unitTitle": "Conduct stockpile reclaiming operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIISRM303D",
+                    "unitTitle": "Move and position materials to form stockpiles",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIISRM304D",
+                    "unitTitle": "Maintain stockpiles",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIISTD301D",
+                    "unitTitle": "Take environmental samples and measurements",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIVEH201D",
+                    "unitTitle": "Operate light vehicle",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIVEH302D",
+                    "unitTitle": "Operate multi-combination vehicle",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIVEH303E",
+                    "unitTitle": "Drive heavy combination vehicle",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIVEH305E",
+                    "unitTitle": "Operate and maintain a four wheel drive vehicle",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIVEH306D",
+                    "unitTitle": "Operate mine service vehicle",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIVEH307E",
+                    "unitTitle": "Operate heavy rigid vehicle",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIWHS201D",
+                    "unitTitle": "Work safely and follow WHS policies and procedures",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "RIIWHS301D",
+                    "unitTitle": "Conduct safety and health investigations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIC3004",
+                    "unitTitle": "Drive heavy rigid vehicle",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID2022",
+                    "unitTitle": "Conduct weighbridge operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLILIC0002",
+                    "unitTitle": "Licence to operate a vehicle loading crane (capacity 10 metre tonnes and above)",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLILIC0005",
+                    "unitTitle": "Licence to operate a boom-type elevating work platform (boom length 11 metres or more)",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLILIC0006",
+                    "unitTitle": "Licence to operate a bridge and gantry crane",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLILIC0010",
+                    "unitTitle": "Licence to operate a slewing mobile crane (up to 20 tonnes)",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLILIC2016",
+                    "unitTitle": "Licence to drive a heavy rigid vehicle",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLILIC3017",
+                    "unitTitle": "Licence to drive a heavy combination vehicle",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLILIC3018",
+                    "unitTitle": "Licence to drive a multi-combination vehicle",
+                    "type": "Elective"
+                }
+            ]
+        },
+        {
+            "courseCode": "TLI30319",
+            "courseTitle": "Certificate III in Supply Chain Operations",
+            "courseInfo": "",
+            "abv": true,
+            "mtacs": false,
+            "sst": false,
+            "jobRoles": [
+                "Warehouse Operator",
+                "Freight Handler",
+                "Cold Store Operator"
+            ],
+            "units": [
+                {
+                    "unitCode": "BSBCMM301",
+                    "unitTitle": "Process customer complaints",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBCUS301",
+                    "unitTitle": "Deliver and monitor a service to customers",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBFIA301",
+                    "unitTitle": "Maintain financial records",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBINM301",
+                    "unitTitle": "Organise workplace information",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBPUR301",
+                    "unitTitle": "Purchase goods and services",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBRKG302",
+                    "unitTitle": "Undertake disposal",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBWOR301",
+                    "unitTitle": "Organise personal work priorities and development",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "RIIHAN301E",
+                    "unitTitle": "Operate elevating work platform",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA0004",
+                    "unitTitle": "Complete receival and despatch documentation",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA0005",
+                    "unitTitle": "Connect and disconnect reefer units",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA0006",
+                    "unitTitle": "Coordinate goods to bond premises",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA0008",
+                    "unitTitle": "Coordinate stocktakes",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA0009",
+                    "unitTitle": "Coordinate terminal/wharf equipment operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA0010",
+                    "unitTitle": "Identify goods and store to specifications",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA0013",
+                    "unitTitle": "Maintain container and freight records",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA0015",
+                    "unitTitle": "Organise receival and despatch operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA0016",
+                    "unitTitle": "Organise warehouse records operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA0017",
+                    "unitTitle": "Process receipt and delivery of containers and cargo",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA1001",
+                    "unitTitle": "Secure cargo",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA3026",
+                    "unitTitle": "Monitor storage facilities",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIB0005",
+                    "unitTitle": "Operate pooled equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIB2001",
+                    "unitTitle": "Check and assess operational capabilities of equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIB3002",
+                    "unitTitle": "Test equipment and isolate faults",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID0001",
+                    "unitTitle": "Load and unload vehicles carrying special loads",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID0003",
+                    "unitTitle": "Control lift and movement of crane",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID0006",
+                    "unitTitle": "Move materials mechanically using automated equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID0008",
+                    "unitTitle": "Shift loads using bridge or gantry crane",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID0009",
+                    "unitTitle": "Shift loads using cranes",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID1001",
+                    "unitTitle": "Shift materials safely using manual handling methods",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "TLID2004",
+                    "unitTitle": "Load and unload goods/cargo",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID2010",
+                    "unitTitle": "Operate a forklift",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3011",
+                    "unitTitle": "Conduct specialised forklift operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3015",
+                    "unitTitle": "Identify and label explosives/dangerous goods",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3023",
+                    "unitTitle": "Use specialised liquid bulk gas transfer equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3024",
+                    "unitTitle": "Use specialised liquid bulk transfer equipment (gravity/pressurised)",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3027",
+                    "unitTitle": "Prepare for transport of dangerous goods",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3031",
+                    "unitTitle": "Rig load",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3033",
+                    "unitTitle": "Operate a vehicle-mounted loading crane",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3035",
+                    "unitTitle": "Operate a boom type elevating work platform",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3036",
+                    "unitTitle": "Lift and move load using a mobile crane",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIE0003",
+                    "unitTitle": "Consolidate manifest documentation",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIE0004",
+                    "unitTitle": "Maintain freight records",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIE0005",
+                    "unitTitle": "Undertake rigger/dogger and operators communications",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIE2007",
+                    "unitTitle": "Use communications systems",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIE3002",
+                    "unitTitle": "Estimate/calculate mass, area and quantify dimensions",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIE3016",
+                    "unitTitle": "Estimate/calculate load shifting requirements for a mobile crane",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIF0006",
+                    "unitTitle": "Administer a fatigue risk management system",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIF0009",
+                    "unitTitle": "Ensure the safety of transport activities (Chain of Responsibility)",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "TLIF0014",
+                    "unitTitle": "Monitor the safety of transport activities (Chain of Responsibility)",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIF2080",
+                    "unitTitle": "Safely access the rail corridor",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIF3003",
+                    "unitTitle": "Implement and monitor work health and safety procedures",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIF3022",
+                    "unitTitle": "Implement/monitor procedures when warehousing/storing dangerous goods/hazardous substances",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIF3091",
+                    "unitTitle": "Apply awareness of dangerous goods and hazardous materials requirements",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIG3002",
+                    "unitTitle": "Lead a work team or group",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIH2001",
+                    "unitTitle": "Interpret road maps and navigate pre-determined routes",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIH3004",
+                    "unitTitle": "Identify major roads, services and attractions",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIJ3002",
+                    "unitTitle": "Apply quality systems",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIJ3005",
+                    "unitTitle": "Sample, inspect and test products to specifications",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIJ3006",
+                    "unitTitle": "Implement grain protection procedures",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIK2010",
+                    "unitTitle": "Use infotechnology devices in the workplace",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIL1001",
+                    "unitTitle": "Complete workplace orientation/induction procedures",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIL3002",
+                    "unitTitle": "Undertake employee payroll activities",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIL3003",
+                    "unitTitle": "Conduct induction process",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLILIC0003",
+                    "unitTitle": "Licence to operate a forklift truck",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLILIC0004",
+                    "unitTitle": "Licence to operate an order picking forklift truck",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLILIC0011",
+                    "unitTitle": "Licence to operate a reach stacker (greater than 3 tonnes capacity)",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIO0001",
+                    "unitTitle": "Undertake emergency response action to a security threat",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIO0002",
+                    "unitTitle": "Apply and monitor workplace security procedures",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIO0003",
+                    "unitTitle": "Follow security procedures when working with goods and cargo",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIO3004",
+                    "unitTitle": "Conduct control procedures for transferring explosives/dangerous/hazardous/high risk goods",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIU2012",
+                    "unitTitle": "Participate in environmentally sustainable work practices",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIU3011",
+                    "unitTitle": "Implement and monitor environmentally sustainable work practices",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIW3006",
+                    "unitTitle": "Operate computerised mail and parcels sorting equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIW3008",
+                    "unitTitle": "Carry out culler facer canceller operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIX0004X",
+                    "unitTitle": "Administer inventory systems",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIX0005X",
+                    "unitTitle": "Administer market supply systems",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIX0013X",
+                    "unitTitle": "Maintain stock control and receivals",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIX0015X",
+                    "unitTitle": "Manage fundamental aspects of supply chains",
+                    "type": "Elective"
+                }
+            ]
+        },
+        {
+            "courseCode": "TLI31616",
+            "courseTitle": "Certificate III in Warehousing Operations",
+            "courseInfo": "",
+            "abv": true,
+            "mtacs": false,
+            "sst": true,
+            "jobRoles": [
+                "Warehouse Operator",
+                "Freight Handler",
+                "Cold Store Operator"
+            ],
+            "units": [
+                {
+                    "unitCode": "BSBCUS301",
+                    "UnitTitle": "Deliver and monitor a service to customers",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBWOR301",
+                    "UnitTitle": "Organise personal work priorities and development",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA3004",
+                    "UnitTitle": "Process receipt and delivery of containers and cargo",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA3010",
+                    "UnitTitle": "Coordinate goods to bond premises",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA3015",
+                    "UnitTitle": "Complete receival/despatch documentation",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA3016",
+                    "UnitTitle": "Use inventory systems to organise stock control",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA3017",
+                    "UnitTitle": "Identify products and store to specifications",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA3018",
+                    "UnitTitle": "Organise despatch operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA3019",
+                    "UnitTitle": "Organise receival operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA3024",
+                    "UnitTitle": "Organise warehouse records operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA3026",
+                    "UnitTitle": "Monitor storage facilities",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA3038",
+                    "UnitTitle": "Control and order stock",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA3039",
+                    "UnitTitle": "Receive and store stock",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIB2001",
+                    "UnitTitle": "Check and assess operational capabilities of equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIB3002",
+                    "UnitTitle": "Test equipment and isolate faults",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID0001",
+                    "UnitTitle": "Load and unload vehicles carrying special loads",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID2010",
+                    "UnitTitle": "Operate a forklift",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID2013",
+                    "UnitTitle": "Move materials mechanically using automated equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3011",
+                    "UnitTitle": "Conduct specialised forklift operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3015",
+                    "UnitTitle": "Identify and label explosives/dangerous goods",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3023",
+                    "UnitTitle": "Use specialised liquid bulk gas transfer equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3024",
+                    "UnitTitle": "Use specialised liquid bulk transfer equipment (gravity/pressurised)",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3027",
+                    "UnitTitle": "Prepare for transport of dangerous goods",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3031",
+                    "UnitTitle": "Rig load",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3033",
+                    "UnitTitle": "Operate a vehicle-mounted loading crane",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3035",
+                    "UnitTitle": "Operate a boom type elevating work platform",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3036",
+                    "UnitTitle": "Lift and move load using a mobile crane",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3040",
+                    "UnitTitle": "Control lift and movement of crane",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3043",
+                    "UnitTitle": "Shift loads using gantry equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID3044",
+                    "UnitTitle": "Shift loads using cranes",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIE3002",
+                    "UnitTitle": "Estimate/calculate mass, area and quantify dimensions",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIE3004",
+                    "UnitTitle": "Prepare workplace documents",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIE3012",
+                    "UnitTitle": "Consolidate manifest documentation",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIE3015",
+                    "UnitTitle": "Undertake rigger/dogger and driver communication",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIE3016",
+                    "UnitTitle": "Estimate/calculate load shifting requirements for a mobile crane",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIF0001",
+                    "UnitTitle": "Apply chain of responsibility legislation, regulations and workplace procedures",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "TLIF0002",
+                    "UnitTitle": "Administer chain of responsibility policies and procedures",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIF1001",
+                    "UnitTitle": "Follow work health and safety procedures",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "TLIF3003",
+                    "UnitTitle": "Implement and monitor work health and safety procedures",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIF3004",
+                    "UnitTitle": "Organise work health and safety procedures in the workplace",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIF3022",
+                    "UnitTitle": "Implement/monitor procedures when warehousing/storing dangerous goods/hazardous substances",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIF3091",
+                    "UnitTitle": "Apply awareness of dangerous goods and hazardous materials requirements",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIG3002",
+                    "UnitTitle": "Lead a work team or group",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIJ3002",
+                    "UnitTitle": "Apply quality systems",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIJ3005",
+                    "UnitTitle": "Sample, inspect and test products to specifications",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIJ3006",
+                    "UnitTitle": "Implement grain protection procedures",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIL1001",
+                    "UnitTitle": "Complete workplace orientation/induction procedures",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "TLIL3002",
+                    "UnitTitle": "Undertake employee payroll activities",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIL3003",
+                    "UnitTitle": "Conduct induction process",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLILIC0003",
+                    "UnitTitle": "Licence to operate a forklift truck",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLILIC0004",
+                    "UnitTitle": "Licence to operate an order picking forklift truck",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIO2021",
+                    "UnitTitle": "Follow security procedures when working with goods and cargo",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIO3004",
+                    "UnitTitle": "Conduct control procedures for transferring explosives/dangerous/hazardous/high risk goods",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIO3016",
+                    "UnitTitle": "Apply and monitor workplace security procedures",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP3015",
+                    "UnitTitle": "Document a records system",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP3016",
+                    "UnitTitle": "Identify and classify records to be captured",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP3019",
+                    "UnitTitle": "Provide records retrieval service",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP3020",
+                    "UnitTitle": "Sentence records",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP3021",
+                    "UnitTitle": "Undertake disposal program",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP3022",
+                    "UnitTitle": "Undertake movement of records",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP3023",
+                    "UnitTitle": "Destroy records",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP3026",
+                    "UnitTitle": "Maintain financial records in a small business",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIU2012",
+                    "UnitTitle": "Participate in environmentally sustainable work practices",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIU3011",
+                    "UnitTitle": "Implement and monitor environmentally sustainable work practices",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIW2018",
+                    "UnitTitle": "Operate hand held air/power equipment for pallet production processes",
+                    "type": "Elective"
+                }
+            ]
+        },
+        {
+            "courseCode": "TLI20119",
+            "courseTitle": "Certificate II in Logistics",
+            "courseInfo": "",
+            "abv": false,
+            "mtacs": true,
+            "sst": false,
+            "jobRoles": [],
+            "units": [
+                {
+                    "unitCode": "BSBCMM301",
+                    "unitTitle": "Process customer complaints",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "BSBCUS201",
+                    "unitTitle": "Deliver a service to customers",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "TLIA0003",
+                    "unitTitle": "Complete and check import/export documentation",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2013",
+                    "unitTitle": "Receive goods",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2014",
+                    "unitTitle": "Use product knowledge to complete work operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2021",
+                    "unitTitle": "Despatch stock",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2022",
+                    "unitTitle": "Participate in stocktakes",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIB0005",
+                    "unitTitle": "Operate pooled equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIB2001",
+                    "unitTitle": "Check and assess operational capabilities of equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID1001",
+                    "unitTitle": "Shift materials safely using manual handling methods",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIE0002",
+                    "unitTitle": "Process workplace documentation",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIE2001",
+                    "unitTitle": "Present routine workplace information",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIE2007",
+                    "unitTitle": "Use communications systems",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIF0009",
+                    "unitTitle": "Ensure the safety of transport activities (Chain of Responsibility)",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "TLIF1001",
+                    "unitTitle": "Follow work health and safety procedures",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "TLIF2010",
+                    "unitTitle": "Apply fatigue management strategies",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIF2018",
+                    "unitTitle": "Operate firefighting equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIG2007",
+                    "unitTitle": "Work in a socially diverse environment",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "TLIH2003",
+                    "unitTitle": "Prioritise courier/delivery operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIJ2001",
+                    "unitTitle": "Apply quality procedures",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIK2003",
+                    "unitTitle": "Apply keyboard skills",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIK2007",
+                    "unitTitle": "Perform electronic data interchange to transmit shipping documentation",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIK2010",
+                    "unitTitle": "Use infotechnology devices in the workplace",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIL2008",
+                    "unitTitle": "Complete routine administrative tasks",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIL2031",
+                    "unitTitle": "Monitor and process attendance records",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIO0003",
+                    "unitTitle": "Follow security procedures when working with goods and cargo",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP2014",
+                    "unitTitle": "Capture records into a records keeping system",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP2017",
+                    "unitTitle": "Maintain control of records",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP2018",
+                    "unitTitle": "Provide information from and about records",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP2024",
+                    "unitTitle": "Conduct financial transactions",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP2029",
+                    "unitTitle": "Prepare and process financial documents",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP2032",
+                    "unitTitle": "Maintain petty cash account",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP2033",
+                    "unitTitle": "Sell products and services",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIU2012",
+                    "unitTitle": "Participate in environmentally sustainable work practices",
+                    "type": "Elective"
+                }
+            ]
+        },
+        {
+            "courseCode": "TLI20419",
+            "courseTitle": "Certificate II in Warehousing Operations",
+            "courseInfo": "",
+            "abv": false,
+            "mtacs": true,
+            "sst": true,
+            "jobRoles": [
+                "Warehouse Operator",
+                "Freight Handler",
+                "Cold Store Operator"
+            ],
+            "units": [
+                {
+                    "unitCode": "BSBCUS201",
+                    "unitTitle": "Deliver a service to customers",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA0003",
+                    "unitTitle": "Complete and check import/export documentation",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA0005",
+                    "unitTitle": "Connect and disconnect reefer units",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA0010",
+                    "unitTitle": "Identify goods and store to specifications",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2011",
+                    "unitTitle": "Package goods",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2012",
+                    "unitTitle": "Pick and process orders",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2013",
+                    "unitTitle": "Receive goods",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2014",
+                    "unitTitle": "Use product knowledge to complete work operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2020",
+                    "unitTitle": "Replenish stock",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2021",
+                    "unitTitle": "Despatch stock",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2022",
+                    "unitTitle": "Participate in stocktakes",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2041",
+                    "unitTitle": "Manually sort mail and parcels",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2042",
+                    "unitTitle": "Despatch mail",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2043",
+                    "unitTitle": "Consolidate mail",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2044",
+                    "unitTitle": "Carry out delivery operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2045",
+                    "unitTitle": "Process international parcels and letters",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2046",
+                    "unitTitle": "Process parcels and letters",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIA2047",
+                    "unitTitle": "Stream mail",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIB0003",
+                    "unitTitle": "Use and maintain minor mechanical equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIB0005",
+                    "unitTitle": "Operate pooled equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIB1028",
+                    "unitTitle": "Maintain and use hand tools",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIB1030",
+                    "unitTitle": "Undertake general site maintenance",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIB2001",
+                    "unitTitle": "Check and assess operational capabilities of equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIB2009",
+                    "unitTitle": "Check conveyor operational status",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIC1051",
+                    "unitTitle": "Operate commercial vehicle",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID0006",
+                    "unitTitle": "Move materials mechanically using automated equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID0007",
+                    "unitTitle": "Operate specialised load shifting equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID0011",
+                    "unitTitle": "Use bulk transfer equipment (dry)",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID2003",
+                    "unitTitle": "Handle dangerous goods/hazardous substances",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID2004",
+                    "unitTitle": "Load and unload goods/cargo",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID2010",
+                    "unitTitle": "Operate a forklift",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID2016",
+                    "unitTitle": "Load and unload explosives/dangerous goods",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID2022",
+                    "unitTitle": "Conduct weighbridge operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID2045",
+                    "unitTitle": "Operate specialised light load shifting equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLID2047",
+                    "unitTitle": "Prepare cargo for transfer with slings",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIE0002",
+                    "unitTitle": "Process workplace documentation",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIE2001",
+                    "unitTitle": "Present routine workplace information",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIE2007",
+                    "unitTitle": "Use communications systems",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIF0009",
+                    "unitTitle": "Ensure the safety of transport activities (Chain of Responsibility)",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "TLIF1001",
+                    "unitTitle": "Follow work health and safety procedures",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "TLIF2006",
+                    "unitTitle": "Apply accident-emergency procedures",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIF2010",
+                    "unitTitle": "Apply fatigue management strategies",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIF2012",
+                    "unitTitle": "Apply safe procedures when handling/transporting dangerous goods or explosives",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIF2018",
+                    "unitTitle": "Operate firefighting equipment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIG2007",
+                    "unitTitle": "Work in a socially diverse environment",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIH2001",
+                    "unitTitle": "Interpret road maps and navigate pre-determined routes",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIH2003",
+                    "unitTitle": "Prioritise courier/delivery operations",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIJ2001",
+                    "unitTitle": "Apply quality procedures",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIJ2003",
+                    "unitTitle": "Apply grain protection measures",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIJ2004",
+                    "unitTitle": "Implement grain monitoring measures",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIK2003",
+                    "unitTitle": "Apply keyboard skills",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIK2007",
+                    "unitTitle": "Perform electronic data interchange to transmit shipping documentation",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIK2010",
+                    "unitTitle": "Use infotechnology devices in the workplace",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIL1001",
+                    "unitTitle": "Complete workplace orientation/induction procedures",
+                    "type": "Core"
+                },
+                {
+                    "unitCode": "TLIL2008",
+                    "unitTitle": "Complete routine administrative tasks",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIL2031",
+                    "unitTitle": "Monitor and process attendance records",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLILIC0003",
+                    "unitTitle": "Licence to operate a forklift truck",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLILIC0004",
+                    "unitTitle": "Licence to operate an order picking forklift truck",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIO0003",
+                    "unitTitle": "Follow security procedures when working with goods and cargo",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP2014",
+                    "unitTitle": "Capture records into a records keeping system",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP2017",
+                    "unitTitle": "Maintain control of records",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP2018",
+                    "unitTitle": "Provide information from and about records",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP2024",
+                    "unitTitle": "Conduct financial transactions",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP2029",
+                    "unitTitle": "Prepare and process financial documents",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP2032",
+                    "unitTitle": "Maintain petty cash account",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIP2033",
+                    "unitTitle": "Sell products and services",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIU1009",
+                    "unitTitle": "Monitor plant and equipment in an environmentally sustainable manner",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIU2012",
+                    "unitTitle": "Participate in environmentally sustainable work practices",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIW2017",
+                    "unitTitle": "Cut and join materials",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIW2020",
+                    "unitTitle": "Undertake pallet repairs",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIW2021",
+                    "unitTitle": "Clean and inspect pallets",
+                    "type": "Elective"
+                },
+                {
+                    "unitCode": "TLIW2023",
+                    "unitTitle": "Manufacture pallets using manual methods",
+                    "type": "Elective"
+                }
+            ]
+        }
+    ]
+}

@@ -2,7 +2,7 @@
 <head>
     <link rel="stylesheet" href="styles/editorStyle.css"/>
     <link rel="stylesheet" href="styles/flyerStyles.css"/>
-    <script src="/scripts/pdfScripts.js"></script>
+    <script src="../scripts/pdfScripts.js"></script>
 </head>
 <body>
     <div id="grid">
@@ -11,24 +11,24 @@
                 <div class="page">
                     <!-- PDF PAGE 1 -->
                     <!--Background: -->
-                    <img class="pageBG" src="/resources/images/AutoFly BG.png"/>
+                    <img class="pageBG" src="../resources/images/AutoFly BG.png"/>
 
                     <!-- Flyer Title -->
                     <p id="flyerHeader" class="flyerComponent centered headerText">Flyer Title</p>
 
                     <!-- Stock image: -->
                     <div id="stockImageContainer" class="flyerComponent">
-                        <img id="stockImage" src="/resources/images/stockImages/business.jpg">
+                        <img id="stockImage" src="../resources/images/stockImages/business.jpg">
                     </div>
                     
                     <!-- RTO Text and Images: -->
                     <p id="tagLogoText" class="flyerComponent">POWERED BY</p>
                     <p id="rtoLogoText" class="flyerComponent">DELIVERED BY</p>
-                    <img id="tagLogo" class="flyerComponent" src="/resources/images/RTOs/Training Alliance.png"/>
+                    <img id="tagLogo" class="flyerComponent" src="../resources/images/RTOs/Training Alliance.png"/>
 
-                    <img id="ABVLogo" class="flyerComponent hidden" src="/resources/images/RTOs/ABV.png"/>
-                    <img id="MTACSLogo" class="flyerComponent hidden" src="/resources/images/RTOs/MTACS - large.png" />
-                    <img id="SSTLogo" class="flyerComponent hidden" src="/resources/images/RTOs/Stirling Skills Training Logo.png"/>
+                    <img id="ABVLogo" class="flyerComponent hidden" src="../resources/images/RTOs/ABV.png"/>
+                    <img id="MTACSLogo" class="flyerComponent hidden" src="../resources/images/RTOs/MTACS - large.png" />
+                    <img id="SSTLogo" class="flyerComponent hidden" src="../resources/images/RTOs/Stirling Skills Training Logo.png"/>
 
                     <!--Contact Us: -->
                     <div id="contactUs" class="flyerComponent">
@@ -72,10 +72,10 @@
                     </div>
 
                     <!-- Compliance Images -->
-                    <img id="jobSkillsLogo" class="flyerComponent" src="/resources/images/complianceImages/jswa_primary_logo.jpg"/>
-                    <img id="skillsReadyLogo" class="flyerComponent" src="/resources/images/complianceImages/jswa_skillsready_txt.jpg"/>
-                    <img id="LFLSLogo" class="flyerComponent" src="/resources/images/complianceImages/LFLS_small.jpg"/>
-                    <img id="NRTLogo" class="flyerComponent" src="/resources/images/complianceImages/nationally recognised training logo.png"/>
+                    <img id="jobSkillsLogo" class="flyerComponent" src="../resources/images/complianceImages/jswa_primary_logo.jpg"/>
+                    <img id="skillsReadyLogo" class="flyerComponent" src="../resources/images/complianceImages/jswa_skillsready_txt.jpg"/>
+                    <img id="LFLSLogo" class="flyerComponent" src="../resources/images/complianceImages/LFLS_small.jpg"/>
+                    <img id="NRTLogo" class="flyerComponent" src="../resources/images/complianceImages/nationally recognised training logo.png"/>
 
                     <!-- RTO Information -->
                     <div id="RTOInfo" class="flyerComponent">
@@ -88,7 +88,7 @@
                 <div class="page">
                     <!-- PDF PAGE 2 -->
                     <!-- Background: -->
-                    <img class="pageBG" src="/resources/images/AutoFly BG 2.png"/>
+                    <img class="pageBG" src="../resources/images/AutoFly BG 2.png"/>
 
                     <!-- Flyer Title and website link -->
                     <p id="secondaryFlyerHeader" class="flyerComponent centered headerText">Flyer Title</p>
@@ -97,13 +97,13 @@
                     <!-- Unit Table and RTO logo -->
                     <table id="unitTable" class="flyerComponent table">
                         <tr>
-                            <th style="width: 27%;">Unit Code</th>
+                            <th style="width: 26%;">Unit Code</th>
                             <th>Unit Title</th>
                         </tr>
                     </table>
-                    <img id="ABVLogo2" class="flyerComponent hidden" src="/resources/images/RTOs/ABV.png"/>
-                    <img id="MTACSLogo2" class="flyerComponent hidden" src="/resources/images/RTOs/MTACS - large.png"/>
-                    <img id="SSTLogo2" class="flyerComponent hidden" src="/resources/images/RTOs/Stirling Skills Training Logo.png"/>
+                    <img id="ABVLogo2" class="flyerComponent hidden" src="../resources/images/RTOs/ABV.png"/>
+                    <img id="MTACSLogo2" class="flyerComponent hidden" src="../resources/images/RTOs/MTACS - large.png"/>
+                    <img id="SSTLogo2" class="flyerComponent" src="../resources/images/RTOs/Stirling Skills Training Logo.png"/>
 
                     <!-- Compliance info -->
                     <div id="complianceInfo" class="flyerComponent">
@@ -162,13 +162,13 @@
                         <div id="sidebarInputsRTO" onchange="RTOSelect()">
 
                             <input type="radio" id="abv" name="RTOSelect">
-                            <label for="abv"><img src="/resources/images/RTOs/ABV.png"/></label>
+                            <label for="abv"><img src="../resources/images/RTOs/ABV.png"/></label>
 
                             <input type="radio" id="mtacs" name="RTOSelect">
-                            <label for="mtacs"><img src="/resources/images/RTOs/MTACS - large.png" style="padding: 20% 0;"/></label>
+                            <label for="mtacs"><img src="../resources/images/RTOs/MTACS - large.png" style="padding: 20% 0;"/></label>
 
                             <input type="radio" id="sst" name="RTOSelect">
-                            <label for="sst"><img src="/resources/images/RTOs/Stirling Skills Training Logo.png"/></label>
+                            <label for="sst"><img src="../resources/images/RTOs/Stirling Skills Training Logo.png"/></label>
                         </div>
                         <div id="courseSelector" onchange="courseSelect()">
                             <h3>Course:</h3>
@@ -196,23 +196,6 @@
                 </div>
                 <div class="section">
                     <div class="heading">
-                        <h2>Units</h2>
-                    </div>
-                    <div class="dropper"></div>
-                    <div class="content" style="display: none">
-                        <div id="unitSelector" onchange="unitSelect()">
-                            <table id="unitSelectorTable" class="table">
-                                <tr>
-                                    <th></th>
-                                    <th>Unit Code</th>
-                                    <th>Unit Title</th>
-                                </tr>
-                            </table>
-                        </div> 
-                    </div>
-                </div>
-                <div class="section">
-                    <div class="heading">
                         <h2>Location, Dates & Fees</h2>
                     </div>
                     <div class="dropper"></div>
@@ -234,10 +217,27 @@
                             <input id="locationSubTextInput" type='text' onchange="detailsChange(this, 'locationSubtext')"/>
                             <br><br>
                             <h3>Concession fee:</h3>
-                            <input id="concessionFeeInput" type='number' onchange="detailsChange(this, 'concessionFee')"/>
+                            <input id="concessionFeeInput" type='text' onchange="detailsChange(this, 'concessionFee')"/>
                             <h3>Normal fee:</h3>
-                            <input id="feeInput" type='number' onchange="detailsChange(this, 'normalFee')"/>
+                            <input id="feeInput" type='text' onchange="detailsChange(this, 'normalFee')"/>
                         </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="heading">
+                        <h2>Units</h2>
+                    </div>
+                    <div class="dropper"></div>
+                    <div class="content" style="display: none">
+                        <div id="unitSelector" onchange="unitSelect()">
+                            <table id="unitSelectorTable" class="table">
+                                <tr>
+                                    <th></th>
+                                    <th>Unit Code</th>
+                                    <th>Unit Title</th>
+                                </tr>
+                            </table>
+                        </div> 
                     </div>
                 </div>
                 <div class="section">
@@ -246,7 +246,8 @@
                     </div>
                     <div class="dropper"></div>
                     <div class="content" style="display: none">
-
+                        <div id="contactSelector" onchange="contactSelect()">
+                        </div>
                     </div>
                 </div>
                 <div>
@@ -316,14 +317,23 @@ class flyer {
     }
 }
 
+contacts = [
+        new contact("Kevin", "Kelly", "kkelly@trainingalliance.com.au", "0428 939 663"),
+        new contact("Jennifer", "Congdon", "jcongdon@trainingalliance.com.au", "0488 550 484")
+]
+
 //Watch for updates to flyer:
 const watcher = {
     set(obj, prop, value){
         Reflect.set(obj, prop, value); // Set requested value
-        if (prop !== "courseCode"){
+        if (prop == "courseCode"){
+            editingFlyer.courseObj = _getCourse(value);
+        }
+        else if (prop == "selectedUnits" && value == []){
+            //Do nothing
+        }
+        else{
             updateFlyerPreview(editingFlyer); // Also call flyer update
-        }else{
-            editingFlyer.courseObj = _getCourse(value); // Set course value if courseCode is set
         }
     }
 }
@@ -376,6 +386,93 @@ function detailsChange(element, propertyName) {
 
     editingFlyer[propertyName] = element.value;
 }
+
+function RTOSelect() {
+    
+    //Detect which input is currently selected:
+    inputElements = document.getElementById("sidebarInputsRTO").getElementsByTagName("INPUT");
+    for (var i = 0; i < inputElements.length; i ++){
+        if (inputElements[i].checked){
+            editingFlyer.rto = inputElements[i].id;
+            console.log("Changed RTO to " + editingFlyer.rto);
+            editingFlyer.courseCode = "";
+            break;
+        }
+    }
+}
+
+function courseSelect() {
+    
+    //Get current RTO:
+    rto = editingFlyer.rto;
+    selector = undefined;
+
+    if (rto == "abv"){
+        selector = document.getElementById("abvCourses");
+    }
+    else if (rto == "mtacs"){
+        selector = document.getElementById("mtacsCourses");
+    }
+    else {
+        selector = document.getElementById("sstCourses");
+    }
+
+    //Change flyer course:
+    editingFlyer.courseCode = selector.value;
+    editingFlyer.selectedUnits = [];
+
+    //#region Update units section:
+    //Select div:
+    unitTable = document.getElementById("unitSelectorTable");
+    unitTable.innerHTML=`
+        <tr>
+            <th></th>
+            <th>Unit Code</th>
+            <th>Unit Title</th>
+        </tr>`;
+
+    for (_unit of editingFlyer.courseObj.units){
+        _row = unitTable.insertRow(-1);
+        cell1 = _row.insertCell(0);
+        cell2 = _row.insertCell(1);
+        cell3 = _row.insertCell(2);
+
+        cell1.innerHTML = "<input id='" + _unit.unitCode + "' type='checkbox' onchange='unitSelect()' name='unitSelection'/>";
+        cell2.innerHTML = "<label for='" + _unit.unitCode + "'>" + _unit.unitCode + "</label>";
+        cell3.innerHTML = "<label for='" + _unit.unitCode + "'>" + _unit.unitTitle + "</label>";
+    }
+    //#endregion
+}
+
+function unitSelect() {
+    //Get ticked boxes:
+
+    inputs = document.getElementById("unitSelectorTable").getElementsByTagName("INPUT");
+    selectedUnits = []
+    for (input of inputs){
+        if (input.checked){
+            //Get unit and push into array
+            selectedUnits.push(_getUnit(input.id));
+        }
+    }
+    editingFlyer.selectedUnits = selectedUnits;
+}
+
+function contactSelect() {
+
+    inputElements = document.getElementById("contactSelector").getElementsByTagName("INPUT");
+    contactIndex = 0;
+
+    for (i of inputElements){
+        if (i.checked){
+            contactIndex = parseInt(i.id.replace(/\D/g, ''));
+            break;
+        }
+    }
+
+    editingFlyer.contact = contacts[contactIndex];
+}
+
 
 function updateFlyerPreview() {
     
@@ -504,83 +601,54 @@ function updateFlyerPreview() {
     //#endregion
 
     //#region Details:
-    
+    document.getElementById("startDate").innerHTML = editingFlyer.courseStart;
+    document.getElementById("startDateSubtext").innerHTML = editingFlyer.courseStartSubtext;
+
+    document.getElementById("duration").innerHTML = editingFlyer.duration;
+    document.getElementById("durationSubtext").innerHTML = editingFlyer.durationSubtext;
+
+    document.getElementById("location").innerHTML = editingFlyer.location;
+    document.getElementById("locationSubtext").innerHTML = editingFlyer.locationSubtext;
+
+    document.getElementById("concessionPrice").innerHTML = "$" + editingFlyer.concessionFee;
+    document.getElementById("price").innerHTML = "$" + editingFlyer.normalFee
 
     //#endregion
-}
 
-function RTOSelect() {
-    
-    //Detect which input is currently selected:
-    inputElements = document.getElementById("sidebarInputsRTO").getElementsByTagName("INPUT");
-    for (var i = 0; i < inputElements.length; i ++){
-        if (inputElements[i].checked){
-            editingFlyer.rto = inputElements[i].id;
-            console.log("Changed RTO to " + editingFlyer.rto);
-            editingFlyer.courseCode = "";
-            break;
-        }
-    }
-}
+    //#region Contact:
+    document.getElementById("contactName").innerHTML = editingFlyer.contact.firstname + " " + editingFlyer.contact.lastname;
+    document.getElementById("contactEmail").innerHTML = editingFlyer.contact.email;
+    document.getElementById("contactNumber").innerHTML = editingFlyer.contact.phonenumber;
 
-function courseSelect() {
-    
-    //Get current RTO:
-    rto = editingFlyer.rto;
-    selector = undefined;
-
-    if (rto == "abv"){
-        selector = document.getElementById("abvCourses");
-    }
-    else if (rto == "mtacs"){
-        selector = document.getElementById("mtacsCourses");
-    }
-    else {
-        selector = document.getElementById("sstCourses");
-    }
-
-    //Change flyer course:
-    editingFlyer.courseCode = selector.value;
-
-
-    //#region Update units section:
-    //Select div:
-
-    unitTable = document.getElementById("unitSelectorTable");
-
-    for (_unit of editingFlyer.courseObj.units){
-        _row = unitTable.insertRow(-1);
-        cell1 = _row.insertCell(0);
-        cell2 = _row.insertCell(1);
-        cell3 = _row.insertCell(2);
-
-        cell1.innerHTML = "<input id='" + _unit.unitCode + "' type='checkbox' onchange='unitSelect()' name='unitSelection'/>";
-        cell2.innerHTML = "<label for='" + _unit.unitCode + "'>" + _unit.unitCode + "</label>";
-        cell3.innerHTML = "<label for='" + _unit.unitCode + "'>" + _unit.unitTitle + "</label>";
-    }
     //#endregion
-}
-
-function unitSelect() {
-    //Get ticked boxes:
-
-    inputs = document.getElementById("unitSelectorTable").getElementsByTagName("INPUT");
-    selectedUnits = []
-    for (input of inputs){
-        if (input.checked){
-            //Get unit and push into array
-            selectedUnits.push(_getUnit(input.id));
-        }
-    }
-    editingFlyer.selectedUnits = selectedUnits;
 }
 //#endregion
 
 
 //#region Sidebar
-setupSideContentToggles();
+_setupSideContentToggles();
+_populateContacts();
 
-function setupSideContentToggles(){
+function _populateContacts (){
+
+    contactContainer = document.getElementById("contactSelector");
+
+    //Loop through contacts and each to html:
+    for (let [index, c] of contacts.entries()){
+        contactContainer.innerHTML += `
+            <div class="contactCard">
+                <input id="contactCard` + index.toString() + `" name="contacts" type="radio"/>
+                <label for="contactCard` + index.toString() + `">
+                    <H4>` + c.firstname + ` ` + c.lastname + `</H4>
+                    <p>` + c.email + `</p>
+                    <p>` + c.phonenumber + `</p>
+                </label>
+            </div>
+        `;
+    }
+}
+
+function _setupSideContentToggles(){
 
     sections = document.getElementsByClassName("section");
     for (section of sections){ //Add listener to each section accordingly

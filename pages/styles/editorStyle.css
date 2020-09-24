@@ -109,3 +109,15 @@ label {
     margin-bottom: 2px;
     margin-top: 2px;
 }
+
+.contactCard {
+    display: grid;
+    grid-template-columns: 10% auto;
+    margin: 10px 5px;
+    border-radius: 20px;
+    background-color: rgb(202, 214, 233);
+}
+
+.contactCard input[type="radio"] {
+    height: 100%;
+}

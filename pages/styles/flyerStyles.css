@@ -270,6 +270,20 @@ body {
     height: 10%;
 }
 
+#MTACSLogo2 {
+    background-color: white;
+    top: 14%;
+    left: 60%;
+    width: 35%;
+}
+
+#SSTLogo2 {
+    background-color: white;
+    top: 14%;
+    left: 74%;
+    height: 10%;
+}
+
 .table th{
     color: white;
     padding: 5px;
@@ -284,10 +298,10 @@ body {
     width: 88%;
     top: 14%;
     left: 6%;
-    word-wrap: normal;
 }
 #unitTable tr {
     text-align: left;
+    width: 100%;
 }
 #unitTable td {
     padding-left: 0.25em;

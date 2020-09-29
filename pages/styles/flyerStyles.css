@@ -23,6 +23,10 @@
     src: url("/resources/fonts/futura/Futura Heavy font.ttf");
 }
 
+.hidden {
+    display: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -55,15 +59,22 @@ body {
     font-size: 1.65em;
 }
 
-#flyerHeader {
+#headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 75%;
-    top: 3.8%;
-    margin: 0.25em;
+    top: 2.75%;
+    height: 7%;
+}
+
+#flyerHeader {
+    margin: 0;
 }
 
 #stockImageContainer {
     left: 8px;
-    top: 11.5%;
+    top: 11.6%;
     width: 69%;
     height: 33%;
     overflow: hidden;
@@ -208,28 +219,33 @@ body {
     column-count: 2;
 }
 
+#complianceImagesContainer {
+    top: 85%;
+    height: 10%;
+    width: 97.5%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+}
+
 #jobSkillsLogo {
-    left: 4%;
-    top: var(--logo-height-alignment);
-    height: 6%;
+    margin: 0 20px;
+    height: 70%;
 }
 
 #skillsReadyLogo {
-    left: 32.5%;
-    top: var(--logo-height-alignment);
-    height: 6.2%;
+    margin: 0 20px;
+    height: 70%;
 }
 
 #LFLSLogo {
-    left: 54%;
-    top: var(--logo-height-alignment);
-    height: 5.4%;
+    margin: 0 20px;
+    height: 60%;
 }
 
 #NRTLogo {
-    left: 80%;
-    top: calc(var(--logo-height-alignment) - 12px);
-    height: 9.4%;
+    height: 100%;
 }
 
 #RTOInfo {
@@ -282,6 +298,11 @@ body {
     top: 14%;
     left: 74%;
     height: 10%;
+}
+
+
+.table {
+    user-select: none;
 }
 
 .table th{

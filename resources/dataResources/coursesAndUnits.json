@@ -7,6 +7,7 @@
             "abv": true,
             "mtacs": true,
             "sst": false,
+            "imageName": "constructionPathways.jpg",
             "jobRoles": [
                 "Labourer",
                 "Site Assistant",
@@ -203,6 +204,7 @@
             "abv": true,
             "mtacs": false,
             "sst": false,
+            "imageName": "business.jpg",
             "jobRoles": [
                 "Office Manager",
                 "Office Administrator",
@@ -383,6 +385,7 @@
             "abv": true,
             "mtacs": true,
             "sst": false,
+            "imageName": "civilConstruction.jpg",
             "jobRoles": [
                 "Civil Construction Plant Operator",
                 "Civil Foundations Worker",
@@ -714,6 +717,7 @@
             "abv": true,
             "mtacs": true,
             "sst": false,
+            "imageName": "surfaceExtraction.jpg",
             "jobRoles": [
                 "Mineral Processing Technician",
                 "Quarry Mobile Plant Operator",
@@ -1264,6 +1268,7 @@
             "abv": true,
             "mtacs": false,
             "sst": false,
+            "imageName": "warehousing.JPG",
             "jobRoles": [
                 "Warehouse Operator",
                 "Freight Handler",
@@ -1669,6 +1674,7 @@
             "abv": true,
             "mtacs": false,
             "sst": true,
+            "imageName": "warehousing.JPG",
             "jobRoles": [
                 "Warehouse Operator",
                 "Freight Handler",
@@ -2010,6 +2016,7 @@
             "mtacs": true,
             "sst": false,
             "jobRoles": [],
+            "imageName": "warehousing.JPG",
             "units": [
                 {
                     "unitCode": "BSBCMM301",
@@ -2190,6 +2197,7 @@
             "abv": false,
             "mtacs": true,
             "sst": true,
+            "imageName": "warehousing.JPG",
             "jobRoles": [
                 "Warehouse Operator",
                 "Freight Handler",

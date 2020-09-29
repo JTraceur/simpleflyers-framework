@@ -1,10 +1,16 @@
-<!DOCTYPE html>
+<!DOCTYPE html lang="en">
 <head>
+    <title>JB's Simple Flyers</title>
     <link rel="stylesheet" href="styles/editorStyle.css"/>
     <link rel="stylesheet" href="styles/flyerStyles.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
     <script src="../scripts/pdfScripts.js"></script>
+    <script src="../scripts/is.js-master/is.min.js"></script>
 </head>
 <body>
+    <div id="browserWarning" class="hidden">
+        <p>This application is only supported on the Google Chrome browser. Please switch to ensure you get the best results.</p>
+    </div>
     <div id="grid">
         <div id="pdfViewer">
             <div id="pageContainer">
@@ -14,7 +20,9 @@
                     <img class="pageBG" src="../resources/images/AutoFly BG.png"/>
 
                     <!-- Flyer Title -->
-                    <p id="flyerHeader" class="flyerComponent centered headerText">Flyer Title</p>
+                    <div id="headerContainer" class="flyerComponent"> 
+                        <p id="flyerHeader" class="centered headerText">Flyer Title</p>
+                    </div>
 
                     <!-- Stock image: -->
                     <div id="stockImageContainer" class="flyerComponent">
@@ -72,10 +80,12 @@
                     </div>
 
                     <!-- Compliance Images -->
-                    <img id="jobSkillsLogo" class="flyerComponent" src="../resources/images/complianceImages/jswa_primary_logo.jpg"/>
-                    <img id="skillsReadyLogo" class="flyerComponent" src="../resources/images/complianceImages/jswa_skillsready_txt.jpg"/>
-                    <img id="LFLSLogo" class="flyerComponent" src="../resources/images/complianceImages/LFLS_small.jpg"/>
-                    <img id="NRTLogo" class="flyerComponent" src="../resources/images/complianceImages/nationally recognised training logo.png"/>
+                    <div id="complianceImagesContainer" class="flyerComponent">
+                        <img id="jobSkillsLogo" src="../resources/images/complianceImages/jswa_primary_logo.jpg"/>
+                        <img id="skillsReadyLogo" src="../resources/images/complianceImages/jswa_skillsready_txt.jpg"/>
+                        <img id="LFLSLogo" src="../resources/images/complianceImages/LFLS_small.jpg"/>
+                        <img id="NRTLogo" src="../resources/images/complianceImages/nationally recognised training logo.png"/>
+                    </div>
 
                     <!-- RTO Information -->
                     <div id="RTOInfo" class="flyerComponent">
@@ -153,26 +163,29 @@
         </div>
         <div id="sidebar">
             <div id="sectionContainer">
-                <div class="section">
+                <div class="section" onchange="checkScrollHeight.call(this);">
                     <div class="heading">
                         <h2>RTO & Course</h2>
                     </div>
-                    <div class="dropper"></div>
+                    <div class="dropper">
+                        <img class="dropperImage" src="../resources/images/down_arrow.png"/>
+                    </div>
                     <div class="content">
-                        <div id="sidebarInputsRTO" onchange="RTOSelect()">
+                        <div id="sidebarInputsRTO" class="logoSelector" onchange="RTOSelect()">
 
-                            <input type="radio" id="abv" name="RTOSelect">
+                            <input type="radio" id="abv" name="RTOSelect" required="">
                             <label for="abv"><img src="../resources/images/RTOs/ABV.png"/></label>
 
-                            <input type="radio" id="mtacs" name="RTOSelect">
+                            <input type="radio" id="mtacs" name="RTOSelect" required="">
                             <label for="mtacs"><img src="../resources/images/RTOs/MTACS - large.png" style="padding: 20% 0;"/></label>
 
-                            <input type="radio" id="sst" name="RTOSelect">
+                            <input type="radio" id="sst" name="RTOSelect" required="">
                             <label for="sst"><img src="../resources/images/RTOs/Stirling Skills Training Logo.png"/></label>
                         </div>
-                        <div id="courseSelector" onchange="courseSelect()">
+                        <div id="courseSelector" onchange="courseSelect()" class="pure-form">
                             <h3>Course:</h3>
                             <select id="abvCourses" class="hidden" name="abvCourses" >
+                                <option value="">Choose a course...</option>
                                 <option value="CPC20211">CPC2011 - Cert II in Construction Pathways</option>
                                 <option value="BSB30115">BSB30115 - Cert III in Business</option>
                                 <option value="RII30815">RII30815 - Cert III in Civil Construction Plant Operations</option>
@@ -181,6 +194,7 @@
                                 <option value="TLI31616">TLI31616 - Cert III in Warehousing Operations</option>
                             </select>
                             <select id="mtacsCourses" class="hidden" name="mtacsCourses">
+                                <option value="">Choose a course...</option>
                                 <option value="CPC20211">CPC2011 - Cert II in Construction Pathways</option>
                                 <option value="RII30815">RII30815 - Cert III in Civil Construction Plant Operations</option>
                                 <option value="RII30115">RII30115 - Cert III in Surface Extraction Operations</option>
@@ -188,49 +202,61 @@
                                 <option value="TLI20419">TLI20419 - Cert II in Warehousing Operations</option>
                             </select>
                             <select id="sstCourses" class="hidden" name="sstCourses">
+                                <option value="">Choose a course...</option>
                                 <option value="TLI31616">TLI31616 - Cert III in Warehousing Operations</option>
                                 <option value="TLI20419">TLI20419 - Cert II in Warehousing Operations</option>
                             </select>
                         </div>
                     </div>
                 </div>
-                <div class="section">
+                <div class="section" onchange="checkScrollHeight.call(this);">
                     <div class="heading">
-                        <h2>Location, Dates & Fees</h2>
+                        <h2>General Info</h2>
                     </div>
-                    <div class="dropper"></div>
-                    <div class="content" style="display: none">
-                        <div id="courseDetailsContainer">
-                            <h3>Date text:</h3>
-                            <input id="dateTextInput" type='text' onchange="detailsChange(this, 'courseStart')"/>
-                            <h4>Date subtext:</h4>
-                            <input id="dateSubTextInput" type='text' onchange="detailsChange(this, 'courseStartSubtext')"/>
-                            <br><br>
-                            <h3>Duration text:</h3>
-                            <input id="durationTextInput" type='text' onchange="detailsChange(this, 'duration')"/>
-                            <h4>Duration subtext:</h4>
-                            <input id="durationSubTextInput" type='text' onchange="detailsChange(this, 'durationSubtext')"/>
-                            <br><br>
-                            <h3>Location text:</h3>
-                            <input id="locationTextInput" type='text' onchange="detailsChange(this, 'location')"/>
-                            <h4>Location subtext:</h4>
-                            <input id="locationSubTextInput" type='text' onchange="detailsChange(this, 'locationSubtext')"/>
-                            <br><br>
-                            <h3>Concession fee:</h3>
-                            <input id="concessionFeeInput" type='text' onchange="detailsChange(this, 'concessionFee')"/>
-                            <h3>Normal fee:</h3>
-                            <input id="feeInput" type='text' onchange="detailsChange(this, 'normalFee')"/>
+                    <div class="dropper">
+                        <img class="dropperImage" src="../resources/images/down_arrow.png"/>
+                    </div>
+                    <div class="content" class="collapsed">
+                        <div id="courseDetailsContainer" class="pure-form">
+                            <fieldset class="pure-group">
+                                <h3>Date:</h3>
+                                <input id="dateTextInput" type='text' placeholder="Main text" onchange="detailsChange(this, 'courseStart')" required=""/>
+                                <input id="dateSubTextInput" type='text' placeholder="Subtext" onchange="detailsChange(this, 'courseStartSubtext')"/>
+                            </fieldset>
+                            
+                            <fieldset class="pure-group">
+                                <h3>Duration:</h3>
+                                <input id="durationTextInput" type='text' placeholder="Main text" onchange="detailsChange(this, 'duration')" required=""/>
+                                <input id="durationSubTextInput" type='text' placeholder="Subtext" onchange="detailsChange(this, 'durationSubtext')"/>    
+                            </fieldset>
+
+                            <fieldset class="pure-group">
+                                <h3>Location:</h3>
+                                <input id="locationTextInput" type='text' placeholder="Main text" onchange="detailsChange(this, 'location')" required=""/>
+                                <input id="locationSubTextInput" type='text' placeholder="Subtext" onchange="detailsChange(this, 'locationSubtext')"/>    
+                            </fieldset>
+
+                            <fieldset class="pure-group">
+                                <h3>Fees:</h3>
+                                <input id="concessionFeeInput" type='text' placeholder="Concession fee" onchange="detailsChange(this, 'concessionFee')" required=""/>
+                                <input id="feeInput" type='text' placeholder="Normal fee" onchange="detailsChange(this, 'normalFee')" required=""/>
+                                <br>
+                                <sub>Include commas and fullstops where needed. (E.g. 1,400 & 2,765.56)</sub>
+                            </fieldset>
+
                         </div>
                     </div>
                 </div>
-                <div class="section">
+                <div class="section" onchange="checkScrollHeight.call(this);">
                     <div class="heading">
                         <h2>Units</h2>
                     </div>
-                    <div class="dropper"></div>
-                    <div class="content" style="display: none">
+                    <div class="dropper">
+                        <img class="dropperImage" src="../resources/images/down_arrow.png"/>
+                    </div>
+                    <div class="content">
                         <div id="unitSelector" onchange="unitSelect()">
-                            <table id="unitSelectorTable" class="table">
+                            <table id="unitSelectorTable" class="table pure-form">
                                 <tr>
                                     <th></th>
                                     <th>Unit Code</th>
@@ -240,18 +266,93 @@
                         </div> 
                     </div>
                 </div>
-                <div class="section">
+                <div class="section" onchange="checkScrollHeight.call(this);">
                     <div class="heading">
-                        <h2>Additional Info</h2>
+                        <h2>Contact</h2>
                     </div>
-                    <div class="dropper"></div>
-                    <div class="content" style="display: none">
-                        <div id="contactSelector" onchange="contactSelect()">
+                    <div class="dropper">
+                        <img class="dropperImage" src="../resources/images/down_arrow.png"/>
+                    </div>
+                    <div class="content">
+                        <div id="contactSelector" onchange="contactSelect()" class="pure-form">
                         </div>
                     </div>
                 </div>
-                <div>
-                    <button onclick="pdfExport()">Export to PDF</button>
+                <div class="section" onchange="checkScrollHeight.call(this);">
+                    <div class="heading">
+                        <h2>Third-party Logos</h2>
+                    </div>
+                    <div class="dropper">
+                        <img class="dropperImage" src="../resources/images/down_arrow.png"/>
+                    </div>
+                    <div class="content">
+                        <div id="complianceLogoSelector" class="logoSelector" onchange="complianceSelect()" class="fure-form">
+                            <input type="checkbox" id="jobsAndSkillsSelector" name="complianceSelect" checked="true"/>
+                            <label for="jobsAndSkillsSelector"><img id="jobsAndSkillsLogoSelector" src="../resources/images/complianceImages/jswa_primary_logo.jpg"></label>
+
+                            <input type="checkbox" id="skillsReadySelector" name="complianceSelect" checked="true"/>
+                            <label for="skillsReadySelector"><img id="skillsReadyLogoSelector" src="../resources/images/complianceImages/jswa_skillsready_txt.jpg"></label>
+
+                            <input type="checkbox" id="LFLSSelector" name="complianceSelect"/ checked="true">
+                            <label for="LFLSSelector"><img id="LFLSLogoSelector" src="../resources/images/complianceImages/LFLS_small.jpg"></label>
+
+                            <input type="checkbox" id="NRTSelector" name="complianceSelect" checked="true"/>
+                            <label for="NRTSelector"><img id="NRTLogoSelector" src="../resources/images/complianceImages/nationally recognised training logo.png"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="section" onchange="checkScrollHeight.call(this)">
+                    <div class="heading">
+                        <h2>Compliance</h2>
+                    </div>
+                    <div class="dropper">
+                        <img class="dropperImage" src="../resources/images/down_arrow.png"/>
+                    </div>
+                    <div class="content" class="collapsed">
+                        <div id="complianceContainer" class="pure-form">
+                            <fieldset>
+                                <h3>Other Information and Assessment Methods</h3>
+                                <input id="practicalTrainingLocation" type="checkbox" name="otherInfo"/><label for="practicalTrainingLocation">Practical training at different location.</label>
+                                <br>
+                                <input id="LLNStatement" type="checkbox" checked="true" name="otherInfo"/><label for="LLNStatement">All candidates must complete LLN.</label>
+                                <br>
+                                <input id="studentAgreement" type="checkbox" checked="true" name="otherInfo"/><label for="studentAgreement">Student agreement.</label>
+                                <br>
+                                <input id="assessment" type="checkbox" checked="true" name="otherInfo"><label for="assessment">Assessment.</label>
+                                <br>
+                                <input id="usi" type="checkbox" checked="true" name="otherInfo"><label for="usi">USI required.</label>
+                                <br>
+                                <input id="completionDocs" type="checkbox" checked="true" name="otherInfo"><label for="completionDocs">Completion docs.</label>
+                            </fieldset>
+                            <fieldset>
+                                <h3>Pre-requisites</h3>
+                                <input id="adultCheck" type="checkbox" name="preReqs"><label for="adultCheck">Students must be 18+ years.</label>
+                                <br>
+                                <input id="notAdult" type="checkbox" name="preReqs"><label for="notAdult">Under 18's will have different units.</label>
+                            </fieldset>
+                            <fieldset>
+                                <h3>Eligibility Criteria</h3>
+                                <input id="employmentStatus" type="checkbox" name="eligibilityCriteria"/><label for="employmentStatus">Clients must be un-employed or under employed.</label>
+                                <br>
+                                <input id="citizenVisa" type="checkbox" name="eligibilityCriteria"/><label for="citizenVisa">Must be Citizen or hold specific visa.</label>
+                                <br>
+                                <input id="schoolieCheck" type="checkbox" name="eligibilityCriteria"/><label for="schoolieCheck">School exemption / NOA</label>
+                            </fieldset>
+                            <fieldset>
+                                <h3>Fees</h3>
+                                <input id="changingFees" type="checkbox" name="feesCompliance"/><label for="changingFees">Fees are indicative only.</label>
+                                <br>
+                                <input id="DTWDFees" type="checkbox" name="feesCompliance"/><label for="DTWDFees">DTWD VET Fees & Charges Policy.</label>
+                                <br>
+                                <input id="paymentPlans" type="checkbox" name="feesCompliance"/><label for="paymentPlans">Payment plans.</label>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+                <div class="centered">
+                    <br>
+                    <button id="exportButton" onclick="pdfExport()" class="pure-button pure-button-primary">Export Flyer</button>
+                    <p class="tinyText" style="color: red;">On print dialog, make sure to enable <strong>"Background Graphics"</strong> under <strong>"More Settings"</strong>.</p>
                 </div>
             </div>
         </div>
@@ -279,7 +380,7 @@ class contact {
 }
 
 class course{
-    constructor(courseCode="", courseName="No course selected", courseInfo="", abv=false, mtacs=false, sst=false, jobRoles=[],units=[]){
+    constructor(courseCode="", courseName="No course selected", courseInfo="", abv=false, mtacs=false, sst=false, jobRoles=[], imageName="", units=[]){
         this.courseCode = courseCode;
         this.courseName = courseName;
         this.courseInfo = courseInfo;
@@ -287,6 +388,7 @@ class course{
         this.mtacs = mtacs;
         this.sst = sst;
         this.jobRoles = jobRoles;
+        this.imageName = imageName;
         this.units = units;
     }
 }
@@ -300,7 +402,7 @@ class unit {
 }
 
 class flyer {
-    constructor(rto, courseCode, contactPerson=new contact("John", "Smith", "jsmith@example.com", "0428 939 663"), courseObj= new course(), courseStart="", courseStartSubtext="", duration="", durationSubtext="", location="", locationSubtext="", normalFee=0, concessionFee=0, selectedUnits = []){
+    constructor(rto, courseCode, contactPerson=new contact("John", "Smith", "jsmith@example.com", "0428 939 663"), courseObj= new course(), courseStart="", courseStartSubtext="", duration="", durationSubtext="", location="", locationSubtext="", normalFee=0, concessionFee=0, selectedUnits = [], selectedLogos=[true, true, true, true]){
         this.rto = rto;
         this.courseCode = courseCode;
         this.contact = contactPerson;
@@ -314,6 +416,7 @@ class flyer {
         this.normalFee = normalFee;
         this.concessionFee = concessionFee;
         this.selectedUnits = selectedUnits;
+        this.selectedLogos = selectedLogos;
     }
 }
 
@@ -353,7 +456,7 @@ function _getCourse(courseCode) { //Returns course object from the global list
 
         for (c of courses){
             if (c.courseCode == courseCode){
-                return new course(c.courseCode, c.courseTitle, c.courseInfo,c.abv, c.mtacs, c.sst, c.jobRoles, c.units);
+                return new course(c.courseCode, c.courseTitle, c.courseInfo,c.abv, c.mtacs, c.sst, c.jobRoles, c.imageName, c.units);
             }
         }
     }
@@ -421,6 +524,10 @@ function courseSelect() {
     editingFlyer.courseCode = selector.value;
     editingFlyer.selectedUnits = [];
 
+    //Change stock image:
+    stockImage = document.getElementById("stockImage");
+    stockImage.src = `../resources/images/stockImages/${editingFlyer.courseObj.imageName}`;
+
     //#region Update units section:
     //Select div:
     unitTable = document.getElementById("unitSelectorTable");
@@ -473,6 +580,16 @@ function contactSelect() {
     editingFlyer.contact = contacts[contactIndex];
 }
 
+function complianceSelect() {
+
+    inputElements = document.getElementById("complianceLogoSelector").getElementsByTagName("INPUT");
+    logoArr = [true, true, true, true];
+    for (i = 0; i < inputElements.length; i ++){
+        ele = inputElements[i];
+        logoArr[i] = ele.checked;
+    }
+    editingFlyer.selectedLogos = logoArr;
+}
 
 function updateFlyerPreview() {
     
@@ -621,6 +738,29 @@ function updateFlyerPreview() {
     document.getElementById("contactNumber").innerHTML = editingFlyer.contact.phonenumber;
 
     //#endregion
+
+    //#region Compliance logos:
+    logo1 = document.getElementById("jobSkillsLogo");
+    logo2 = document.getElementById("skillsReadyLogo");
+    logo3 = document.getElementById("LFLSLogo");
+    logo4 = document.getElementById("NRTLogo");
+
+    //Logo 1
+    if (editingFlyer.selectedLogos[0]) logo1.classList.remove("hidden")
+    else logo1.classList.add("hidden")
+
+    //Logo 2
+    if (editingFlyer.selectedLogos[1]) logo2.classList.remove("hidden")
+    else logo2.classList.add("hidden")
+
+    //Logo 3
+    if (editingFlyer.selectedLogos[2]) logo3.classList.remove("hidden")
+    else logo3.classList.add("hidden")
+
+    //Logo 4
+    if (editingFlyer.selectedLogos[3]) logo4.classList.remove("hidden")
+    else logo4.classList.add("hidden")
+    //#endregion
 }
 //#endregion
 
@@ -628,6 +768,9 @@ function updateFlyerPreview() {
 //#region Sidebar
 _setupSideContentToggles();
 _populateContacts();
+
+//Browser warning:
+if (is.not.chrome()) document.getElementById("browserWarning").classList.remove("hidden"); 
 
 function _populateContacts (){
 
@@ -658,6 +801,7 @@ function _setupSideContentToggles(){
 
         heading.addEventListener("click", function () {toggleSideContent.call(this)});
         dropper.addEventListener("click", function () {toggleSideContent.call(this)});
+
     }
 }
 
@@ -666,7 +810,22 @@ function toggleSideContent(){
 
     parent = this.parentElement;
     content = parent.getElementsByClassName("content")[0];
-    content.style.display = ((content.style.display === "none") ? "block" : "none"); // Toggle collapse 
+    img = parent.getElementsByTagName("IMG")[0];
+    if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+        img.src = "../resources/images/down_arrow.png";
+    }
+    else {
+        content.style.maxHeight = content.scrollHeight + "px";
+        img.src = "../resources/images/up_arrow.png";
+    }
+}
+
+function checkScrollHeight() {
+    content_elements = document.getElementsByClassName("content");
+    for (content of content_elements){
+        if (content.style.maxHeight) content.style.maxHeight = content.scrollHeight + "px";
+    }
 }
 //#endregion
 </script>

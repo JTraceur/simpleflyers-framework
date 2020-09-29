@@ -10,8 +10,31 @@ body {
     overflow: hidden;
 }
 
+#browserWarning {
+    background-color: red;
+    padding: 2px 5px;
+}
+
+#browserWarning p {
+    color: white;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 98%;
+    margin: 0 5px;
+}
+
 .hidden {
     display: none;
+}
+
+.collapsed {
+    height: 0;
+}
+
+.tinyText {
+    font-size: smaller;
 }
 
 #grid {
@@ -53,6 +76,7 @@ body {
 .section .heading {
     grid-area: head;
     background-color: rgba(58, 118, 167, 0.473);
+    border-bottom: 1px solid rgb(128, 128, 128);
 }
 .section .heading:hover, .section .dropper:hover {
     cursor: pointer;
@@ -68,29 +92,36 @@ body {
 .section .dropper {
     grid-area: dropper;
     background-color: rgba(58, 118, 167, 0.473);
+    border-bottom: 1px solid rgb(128, 128, 128);
 }
 .section .content {
     grid-area: main;
-    min-height: 200px;
+    max-height: 0;
+    overflow: hidden;
     background-color: rgba(211, 211, 211, 0.568);
+    transition: 0.4s ease-out;
 }
 label {
+    user-select: none;
+    margin-left: 8px !important; 
+}
+label img {
     margin: 0;
 }
 
-#sidebarInputsRTO {
+.logoSelector {
     display: grid;
     height: 100%;
     grid-template-columns: max-content auto;
     grid-template-rows: auto auto auto;
 }
-#sidebarInputsRTO img{
+.logoSelector img{
     display: block;
-    margin: auto;
+    margin: 20px auto;
     width: 50%;
     max-width: 200px;
 }
-#sidebarInputsRTO input[type="radio"] {
+.logoSelector input[type="radio"],  .logoSelector input[type="checkbox"]{
     height: 100%;
 }
 #courseSelector  {

@@ -265,6 +265,17 @@
                     </div>
                     <div class="content">
                         <div id="contactSelector" onchange="contactSelect()" class="pure-form">
+                            <label for="contactCardCustom" class="contactCard">
+                                <input id="contactCardCustom" name="contacts" type="radio"/>
+                                <div class="pure-form">
+                                    <fieldset style="padding-right: 15px;">
+                                        <h4>Custom contact</h4>
+                                        <input id="customContactName" type="text" placeholder="John Smith"/>
+                                        <input id="customContactEmail" type="text" placeholder="jsmith@trainingalliance.com.au"/>
+                                        <input id="customContactNumber" type="text" placeholder="0468 939 484"/>
+                                    </fieldset>
+                                </div>
+                            </label>
                         </div>
                     </div>
                 </div>
@@ -614,7 +625,7 @@ function complianceInfoSelect(){
     //#region Get elements:
     //Other information and Assessment methods:
     practicalTrainingLocation = new complianceSnippet(document.getElementById("practicalTrainingLocation"));
-    practicalTrainingLocation.text = "Components of training may be conducted at a seperate location.";
+    practicalTrainingLocation.text = "Components of training may be conducted at a separate location. ";
     practicalTrainingLocation.targetElement = otherInformationSection;
 
     LLNStatement = new complianceSnippet(document.getElementById("LLNStatement"));
@@ -919,16 +930,18 @@ function _populateContacts (){
     //Loop through contacts and each to html:
     for (let [index, c] of contacts.entries()){
         contactContainer.innerHTML += `
-            <div class="contactCard">
+            <label for="contactCard` + index.toString() + `" class="contactCard">
                 <input id="contactCard` + index.toString() + `" name="contacts" type="radio"/>
-                <label for="contactCard` + index.toString() + `">
+                <div>
                     <H4>` + c.firstname + ` ` + c.lastname + `</H4>
                     <p>` + c.email + `</p>
                     <p>` + c.phonenumber + `</p>
-                </label>
-            </div>
+                </div>
+            </label>
         `;
     }
+
+    
 }
 
 function _setupSideContentToggles(){

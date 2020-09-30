@@ -111,31 +111,26 @@
                             <th>Unit Title</th>
                         </tr>
                     </table>
-                    <img id="ABVLogo2" class="flyerComponent hidden" src="../resources/images/RTOs/ABV.png"/>
-                    <img id="MTACSLogo2" class="flyerComponent hidden" src="../resources/images/RTOs/MTACS - large.png"/>
-                    <img id="SSTLogo2" class="flyerComponent" src="../resources/images/RTOs/Stirling Skills Training Logo.png"/>
+                    <!--
+                        <img id="ABVLogo2" class="flyerComponent hidden" src="../resources/images/RTOs/ABV.png"/>
+                        <img id="MTACSLogo2" class="flyerComponent hidden" src="../resources/images/RTOs/MTACS - large.png"/>
+                        <img id="SSTLogo2" class="flyerComponent hidden" src="../resources/images/RTOs/Stirling Skills Training Logo.png"/>
+                    -->
 
                     <!-- Compliance info -->
                     <div id="complianceInfo" class="flyerComponent">
                         <div>
-                            <p id="complianceInfo1Header" class="infoHeader">Other Information and Assessment Methods:</p>
-                            <p id="complianceInfo1Content" class="infoContent">Practical components of training may be conducted at a seperate location. All candidates must satisfactorily complete a language, literacy and numeracy support assessment (LLN) during the enrolment process. This will occur prior to the course confirmation. Students must read the Student Handbook and agree to the terms and conditions in it prior to enrolment. Assessments include written work and observation of practical skills. Alternative methods of assessment are based on reasonable adjustment. All students require a valid USI. 
-                                A Certificate and Record of Result will be provided for all students who successfully complete all aspects of the course. A Statement of Attainment will be supplied for partial completion.</p>
+                            <p id="otherInfoHeader" class="infoHeader">Other Information and Assessment Methods:</p>
+                            <p id="otherInfoContent" class="infoContent"></p>
                         </div>
 
                         <div>
-                            <p id="complianceInfo2Header" class="infoHeader">Pre-requisites:</p>
-                            <p id="complianceInfo2Content" class="infoContent">Nil.</p>
+                            <p id="preReqsHeader" class="infoHeader">Pre-requisites:</p>
+                            <p id="preReqsContent" class="infoContent"></p>
                         </div>
                         <div>
-                            <p id="complianceInfo3Header" class="infoHeader">Eligibility Criteria - Work Readiness Program:</p>
-                            <div id="complianceInfo3Content" class="infoContent">
-                                <ul>
-                                    <li>Clients must be unemployed or under employed.</li>
-                                    <li>Clients must be an Australian citizen, permanent resident or holders of a sub-class 309, 444, 785, 790, 820 or 826 visa; secondary holders of a temporary visa of sub-class 457; and holders of a Bridging Visa E (subclasses 050 and 051) where the visa holder has made a valid application for a visa of subclass 785 or 790.</li>
-                                    <li>Clients under the age of 18 who are mandatory high school age must have an accompanying NOA or have an exemption.</li>
-                                </ul>
-                            </div>
+                            <p id="eligibilityCriteriaHeader" class="infoHeader">Eligibility Criteria - Work Readiness Program:</p>
+                            <p id="eligibilityCriteriaContent" class="infoContent"></p>
                         </div>
                         <!-- Pricing Info -->
                         <div id="pricingContainer">
@@ -148,14 +143,9 @@
                                     <p id="price">$ 1,250.64</p>
                                 </div>
                             </div>
-                            <div id="pricingInfoText">
-                                <!-- Pricing info -->
-                                <ul class="infoContent">
-                                    <li>Student tutition fees are indicative only and are subject to change given individual circumstances at enrolment. Additional fees may apply such as Student service and resource fees.</li>
-                                    <li>All fees and charges are taken from the DTWD VET Fees and Charges Policy.</li>
-                                    <li>Payment plans are available for all courses, students who feel they are experiencing financial hardship should seek further advice from a training staff member.</li>
-                                </ul>
-                            </div>
+                            <p id="pricingInfoText" class="infoContent">
+  
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -286,7 +276,7 @@
                         <img class="dropperImage" src="../resources/images/down_arrow.png"/>
                     </div>
                     <div class="content">
-                        <div id="complianceLogoSelector" class="logoSelector" onchange="complianceSelect()" class="fure-form">
+                        <div id="complianceLogoSelector" class="logoSelector" onchange="complianceLogoSelect()" class="fure-form">
                             <input type="checkbox" id="jobsAndSkillsSelector" name="complianceSelect" checked="true"/>
                             <label for="jobsAndSkillsSelector"><img id="jobsAndSkillsLogoSelector" src="../resources/images/complianceImages/jswa_primary_logo.jpg"></label>
 
@@ -309,7 +299,7 @@
                         <img class="dropperImage" src="../resources/images/down_arrow.png"/>
                     </div>
                     <div class="content" class="collapsed">
-                        <div id="complianceContainer" class="pure-form">
+                        <div id="complianceContainer" class="pure-form" onchange="complianceInfoSelect()">
                             <fieldset>
                                 <h3>Other Information and Assessment Methods</h3>
                                 <input id="practicalTrainingLocation" type="checkbox" name="otherInfo"/><label for="practicalTrainingLocation">Practical training at different location.</label>
@@ -402,7 +392,7 @@ class unit {
 }
 
 class flyer {
-    constructor(rto, courseCode, contactPerson=new contact("John", "Smith", "jsmith@example.com", "0428 939 663"), courseObj= new course(), courseStart="", courseStartSubtext="", duration="", durationSubtext="", location="", locationSubtext="", normalFee=0, concessionFee=0, selectedUnits = [], selectedLogos=[true, true, true, true]){
+    constructor(rto, courseCode, contactPerson=new contact("John", "Smith", "jsmith@example.com", "0428 939 663"), courseObj= new course(), courseStart="", courseStartSubtext="", duration="", durationSubtext="", location="", locationSubtext="", normalFee=0, concessionFee=0, selectedUnits = [], selectedCompliance=[],selectedLogos=[true, true, true, true]){
         this.rto = rto;
         this.courseCode = courseCode;
         this.contact = contactPerson;
@@ -416,6 +406,7 @@ class flyer {
         this.normalFee = normalFee;
         this.concessionFee = concessionFee;
         this.selectedUnits = selectedUnits;
+        this.selectedCompliance = selectedCompliance;
         this.selectedLogos = selectedLogos;
     }
 }
@@ -538,22 +529,32 @@ function courseSelect() {
             <th>Unit Title</th>
         </tr>`;
 
-    for (_unit of editingFlyer.courseObj.units){
-        _row = unitTable.insertRow(-1);
-        cell1 = _row.insertCell(0);
-        cell2 = _row.insertCell(1);
-        cell3 = _row.insertCell(2);
+    coreUnits = [];
 
-        cell1.innerHTML = "<input id='" + _unit.unitCode + "' type='checkbox' onchange='unitSelect()' name='unitSelection'/>";
-        cell2.innerHTML = "<label for='" + _unit.unitCode + "'>" + _unit.unitCode + "</label>";
-        cell3.innerHTML = "<label for='" + _unit.unitCode + "'>" + _unit.unitTitle + "</label>";
+    for (_unit of editingFlyer.courseObj.units){
+        if (_unit.type == null || _unit.type == 'Elective' ){
+            _row = unitTable.insertRow(-1);
+            cell1 = _row.insertCell(0);
+            cell2 = _row.insertCell(1);
+            cell3 = _row.insertCell(2);
+
+            cell1.innerHTML = "<input id='" + _unit.unitCode + "' type='checkbox' onchange='unitSelect()' name='unitSelection'/>";
+            cell2.innerHTML = "<label for='" + _unit.unitCode + "'>" + _unit.unitCode + "</label>";
+            cell3.innerHTML = "<label for='" + _unit.unitCode + "'>" + _unit.unitTitle + "</label>";
+        }else{
+            coreUnits.push(_unit);
+        }
     }
+
+    editingFlyer.selectedUnits = coreUnits;
     //#endregion
+
+
 }
 
 function unitSelect() {
-    //Get ticked boxes:
 
+    //Get ticked boxes:
     inputs = document.getElementById("unitSelectorTable").getElementsByTagName("INPUT");
     selectedUnits = []
     for (input of inputs){
@@ -562,7 +563,10 @@ function unitSelect() {
             selectedUnits.push(_getUnit(input.id));
         }
     }
-    editingFlyer.selectedUnits = selectedUnits;
+
+    //Core units
+    coreUnits = editingFlyer.courseObj.units.filter(unit => unit.type == 'Core');
+    editingFlyer.selectedUnits = selectedUnits.concat(coreUnits);
 }
 
 function contactSelect() {
@@ -580,7 +584,7 @@ function contactSelect() {
     editingFlyer.contact = contacts[contactIndex];
 }
 
-function complianceSelect() {
+function complianceLogoSelect() {
 
     inputElements = document.getElementById("complianceLogoSelector").getElementsByTagName("INPUT");
     logoArr = [true, true, true, true];
@@ -589,6 +593,89 @@ function complianceSelect() {
         logoArr[i] = ele.checked;
     }
     editingFlyer.selectedLogos = logoArr;
+}
+
+function complianceInfoSelect(){
+
+    class complianceSnippet {
+        constructor (element, text=""){
+            this.inputElement = element;
+            this.targetElement = undefined;
+            this.selected = element.checked;
+            this.text = text;
+        }
+    }
+
+    otherInformationSection = document.getElementById("otherInfoContent");
+    preReqsSection = document.getElementById("preReqsContent");
+    eligibilitySection = document.getElementById("eligibilityCriteriaContent");
+    pricingSection = document.getElementById("pricingInfoText");
+
+    //#region Get elements:
+    //Other information and Assessment methods:
+    practicalTrainingLocation = new complianceSnippet(document.getElementById("practicalTrainingLocation"));
+    practicalTrainingLocation.text = "Components of training may be conducted at a seperate location.";
+    practicalTrainingLocation.targetElement = otherInformationSection;
+
+    LLNStatement = new complianceSnippet(document.getElementById("LLNStatement"));
+    LLNStatement.text = "All candidates must satisfactorily complete a language, literacy and numeracy support assessment (LLN) during the enrolment process. This will occur prior to course confirmation. ";
+    LLNStatement.targetElement = otherInformationSection;
+
+    studentAgreement = new complianceSnippet(document.getElementById("studentAgreement"));
+    studentAgreement.text = "Students must read the Student Handbook and agree to the terms and conditions in it prior to enrolment. ";
+    studentAgreement.targetElement = otherInformationSection;
+
+    assessment = new complianceSnippet(document.getElementById("assessment"));
+    assessment.text = "Assessments include written work and observation of practical skills. Alternative methods of assessment are based on reasonable adjustment. ";
+    assessment.targetElement = otherInformationSection;
+
+    usi = new complianceSnippet(document.getElementById("usi"));
+    usi.text = "All students require a valid USI. ";
+    usi.targetElement = otherInformationSection;
+
+    completionDocs = new complianceSnippet(document.getElementById("completionDocs"));
+    completionDocs.text = "A Certificate and Record of Result will be provided for all students who successfully complete all aspects of the course. A Statement of Attainment will be supplied for partial completion. ";
+    completionDocs.targetElement = otherInformationSection;
+
+    //Pre-reqs:
+    adultCheck = new complianceSnippet(document.getElementById("adultCheck"));
+    adultCheck.text = "Students must be 18yrs+ to undertake high-risk units. ";
+    adultCheck.targetElement = preReqsSection;
+
+    notAdult = new complianceSnippet(document.getElementById("notAdult"));
+    notAdult.text = "In the case where a student cannot undertake high-risk units, substitute units will be implemented. "
+    notAdult.targetElement = preReqsSection;
+
+    //Eligibility Criteria:
+    employmentStatus = new complianceSnippet(document.getElementById("employmentStatus"));
+    employmentStatus.text = "Clients must be unemployed or under employed. ";
+    employmentStatus.targetElement = eligibilitySection;
+
+    citizenVisa = new complianceSnippet(document.getElementById("citizenVisa"));
+    citizenVisa.text = "Clients must be an Australian citizen, permanent resident or holders of a sub-class 309, 444, 785, 790, 820 or 826 visa; secondary holders of a temporary visa of sub-class 457; and holders of a Bridging Visa E (subclasses 050 and 051) where the visa holder has made a valid application for a visa of subclass 785 or 790. ";
+    citizenVisa.targetElement = eligibilitySection;
+
+    schoolieCheck = new complianceSnippet(document.getElementById("schoolieCheck"));
+    schoolieCheck.text = "Clients under the age of 18 who are mandatory high school age must have an accompanying NOA or have an exemption. ";
+    schoolieCheck.targetElement = eligibilitySection;
+
+    //Fees:
+    changingFees = new complianceSnippet(document.getElementById("changingFees"));
+    changingFees.text = "Student tutition fees are indicative only and are subject to change given individual circumstances at enrolment. Additional fees may apply such as Student service and resource fees. ";
+    changingFees.targetElement = pricingSection;
+
+    DTWDFees = new complianceSnippet(document.getElementById("DTWDFees"));
+    DTWDFees.text = "All fees and charges are taken from the DTWD VET Fees and Charges Policy. ";
+    DTWDFees.targetElement = pricingSection;
+
+    paymentPlans = new complianceSnippet(document.getElementById("paymentPlans"));
+    paymentPlans.text = "Payment plans are available for all courses, students who feel they are experiencing financial hardship should seek further advice from a training staff member. ";
+    paymentPlans.targetElement = pricingSection;
+    
+    compiledArr = [practicalTrainingLocation, LLNStatement, studentAgreement, assessment, usi, completionDocs, adultCheck, notAdult, employmentStatus, citizenVisa, schoolieCheck, changingFees, DTWDFees, paymentPlans];
+
+    editingFlyer.selectedCompliance = compiledArr.filter(object => object.inputElement.checked);
+    //#endregion
 }
 
 function updateFlyerPreview() {
@@ -604,9 +691,9 @@ function updateFlyerPreview() {
     sstLogo1 = document.getElementById("SSTLogo");
 
     //RTO Logos 2:
-    abvLogo2 = document.getElementById("ABVLogo2");
-    mtacsLogo2 = document.getElementById("MTACSLogo2");
-    sstLogo2 = document.getElementById("SSTLogo2");
+    //abvLogo2 = document.getElementById("ABVLogo2");
+    //mtacsLogo2 = document.getElementById("MTACSLogo2");
+    //sstLogo2 = document.getElementById("SSTLogo2");
 
     //Page footer:
     rtoInfoElement = document.getElementById("RTOInfo");
@@ -626,9 +713,9 @@ function updateFlyerPreview() {
         sstLogo1.classList.add('hidden');
 
         //Logo 2
-        abvLogo2.classList.remove('hidden');
-        mtacsLogo2.classList.add('hidden');
-        sstLogo2.classList.add('hidden');
+        //abvLogo2.classList.remove('hidden');
+        //mtacsLogo2.classList.add('hidden');
+        //sstLogo2.classList.add('hidden');
 
         //Footer
         rtoInfoElement.innerHTML = `
@@ -651,9 +738,9 @@ function updateFlyerPreview() {
         sstLogo1.classList.add('hidden');
 
         //Logo 2
-        abvLogo2.classList.add('hidden');
-        mtacsLogo2.classList.remove('hidden');
-        sstLogo2.classList.add('hidden');
+        //abvLogo2.classList.add('hidden');
+        //mtacsLogo2.classList.remove('hidden');
+        //sstLogo2.classList.add('hidden');
 
         rtoInfoElement.innerHTML = `
             <p>Mining, Transport & Construction Services</p>
@@ -674,9 +761,9 @@ function updateFlyerPreview() {
         sstLogo1.classList.remove('hidden');
 
         //Logo 2
-        abvLogo2.classList.add('hidden');
-        mtacsLogo2.classList.add('hidden');
-        sstLogo2.classList.remove('hidden');
+        //abvLogo2.classList.add('hidden');
+        //mtacsLogo2.classList.add('hidden');
+        //sstLogo2.classList.remove('hidden');
 
         rtoInfoElement.innerHTML = `
             <p>Stirling Skills Training</p>
@@ -713,7 +800,7 @@ function updateFlyerPreview() {
     for(u of editingFlyer.selectedUnits){
         row = table.insertRow();
         row.insertCell(0).innerHTML = u.unitCode;
-        row.insertCell(1).innerHTML = u.unitName;
+        row.insertCell(1).innerHTML = u.unitName || u.unitTitle;
     }
     //#endregion
 
@@ -761,6 +848,58 @@ function updateFlyerPreview() {
     if (editingFlyer.selectedLogos[3]) logo4.classList.remove("hidden")
     else logo4.classList.add("hidden")
     //#endregion
+
+    //#region Compliance Text:
+    otherInformationSection = document.getElementById("otherInfoContent");
+    preReqsSection = document.getElementById("preReqsContent");
+    eligibilitySection = document.getElementById("eligibilityCriteriaContent");
+    pricingSection = document.getElementById("pricingInfoText");
+    otherInformationSection.innerHTML = "";
+    preReqsSection.innerHTML = "";
+    eligibilitySection.innerHTML = "";
+    pricingSection.innerHTML = "";
+
+    complianceArr = editingFlyer.selectedCompliance;
+
+    for (snippet of complianceArr){
+        snippet.targetElement.innerHTML += snippet.text;
+    }
+
+    //Hide headers if there is no text in catagory:
+    //Other info:
+    parentElement = otherInformationSection.parentElement;
+    if (otherInformationSection.innerHTML == ""){
+        parentElement.classList.add("hidden");
+    }
+    else{
+        parentElement.classList.remove("hidden");
+    }
+
+    //Pre-reqs
+    parentElement = preReqsSection.parentElement;
+    if (preReqsSection.innerHTML == ""){
+        parentElement.classList.add("hidden");
+    }
+    else {
+        parentElement.classList.remove("hidden");
+    }
+
+    //Eligibility 
+    parentElement = eligibilitySection.parentElement;
+    if (eligibilitySection.innerHTML == ""){
+        parentElement.classList.add("hidden");
+    } else {
+        parentElement.classList.remove("hidden");
+    }
+
+    //Pricing
+    if (pricingSection.innerHTML == ""){
+        pricingSection.classList.add("hidden");
+    } else {
+        pricingSection.classList.remove("hidden");
+    }
+
+    //#endregion
 }
 //#endregion
 
@@ -768,6 +907,7 @@ function updateFlyerPreview() {
 //#region Sidebar
 _setupSideContentToggles();
 _populateContacts();
+complianceInfoSelect();
 
 //Browser warning:
 if (is.not.chrome()) document.getElementById("browserWarning").classList.remove("hidden"); 

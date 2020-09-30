@@ -199,6 +199,10 @@ body {
     padding-bottom: 0.25em;
 }
 
+#jobRolesContainer {
+    max-width: 300px;
+}
+
 #jobRolesHeader {
     color: white;
     font-weight: bold;
@@ -215,8 +219,8 @@ body {
 #infoText {
     color: white;
     font-size: 0.85em;
-    margin-left: 1em;
-    column-count: 2;
+    margin-top: 4px;
+    margin-left: 2em;
 }
 
 #complianceImagesContainer {
@@ -335,7 +339,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: rgb(55, 91, 158);
-    margin: 0.25em 0;
+    margin-top: 0;
     margin-bottom: 0.15em;
 }
 .infoContent {
@@ -346,13 +350,13 @@ body {
 #complianceInfo {
     padding: 0 0.75em;
     column-count: 2;
-    bottom: 7%;
+    bottom: 8%;
     width: 94.8%;
     height: auto;
 }
 
-#prices {
-    padding-left: 0.5em;
+#complianceInfo div {
+    break-inside: avoid;
 }
 
 #pricesContainer {

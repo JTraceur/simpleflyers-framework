@@ -1683,327 +1683,327 @@
             "units": [
                 {
                     "unitCode": "BSBCUS301",
-                    "UnitTitle": "Deliver and monitor a service to customers",
+                    "unitTitle": "Deliver and monitor a service to customers",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "BSBWOR301",
-                    "UnitTitle": "Organise personal work priorities and development",
+                    "unitTitle": "Organise personal work priorities and development",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIA3004",
-                    "UnitTitle": "Process receipt and delivery of containers and cargo",
+                    "unitTitle": "Process receipt and delivery of containers and cargo",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIA3010",
-                    "UnitTitle": "Coordinate goods to bond premises",
+                    "unitTitle": "Coordinate goods to bond premises",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIA3015",
-                    "UnitTitle": "Complete receival/despatch documentation",
+                    "unitTitle": "Complete receival/despatch documentation",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIA3016",
-                    "UnitTitle": "Use inventory systems to organise stock control",
+                    "unitTitle": "Use inventory systems to organise stock control",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIA3017",
-                    "UnitTitle": "Identify products and store to specifications",
+                    "unitTitle": "Identify products and store to specifications",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIA3018",
-                    "UnitTitle": "Organise despatch operations",
+                    "unitTitle": "Organise despatch operations",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIA3019",
-                    "UnitTitle": "Organise receival operations",
+                    "unitTitle": "Organise receival operations",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIA3024",
-                    "UnitTitle": "Organise warehouse records operations",
+                    "unitTitle": "Organise warehouse records operations",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIA3026",
-                    "UnitTitle": "Monitor storage facilities",
+                    "unitTitle": "Monitor storage facilities",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIA3038",
-                    "UnitTitle": "Control and order stock",
+                    "unitTitle": "Control and order stock",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIA3039",
-                    "UnitTitle": "Receive and store stock",
+                    "unitTitle": "Receive and store stock",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIB2001",
-                    "UnitTitle": "Check and assess operational capabilities of equipment",
+                    "unitTitle": "Check and assess operational capabilities of equipment",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIB3002",
-                    "UnitTitle": "Test equipment and isolate faults",
+                    "unitTitle": "Test equipment and isolate faults",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLID0001",
-                    "UnitTitle": "Load and unload vehicles carrying special loads",
+                    "unitTitle": "Load and unload vehicles carrying special loads",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLID2010",
-                    "UnitTitle": "Operate a forklift",
+                    "unitTitle": "Operate a forklift",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLID2013",
-                    "UnitTitle": "Move materials mechanically using automated equipment",
+                    "unitTitle": "Move materials mechanically using automated equipment",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLID3011",
-                    "UnitTitle": "Conduct specialised forklift operations",
+                    "unitTitle": "Conduct specialised forklift operations",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLID3015",
-                    "UnitTitle": "Identify and label explosives/dangerous goods",
+                    "unitTitle": "Identify and label explosives/dangerous goods",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLID3023",
-                    "UnitTitle": "Use specialised liquid bulk gas transfer equipment",
+                    "unitTitle": "Use specialised liquid bulk gas transfer equipment",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLID3024",
-                    "UnitTitle": "Use specialised liquid bulk transfer equipment (gravity/pressurised)",
+                    "unitTitle": "Use specialised liquid bulk transfer equipment (gravity/pressurised)",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLID3027",
-                    "UnitTitle": "Prepare for transport of dangerous goods",
+                    "unitTitle": "Prepare for transport of dangerous goods",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLID3031",
-                    "UnitTitle": "Rig load",
+                    "unitTitle": "Rig load",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLID3033",
-                    "UnitTitle": "Operate a vehicle-mounted loading crane",
+                    "unitTitle": "Operate a vehicle-mounted loading crane",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLID3035",
-                    "UnitTitle": "Operate a boom type elevating work platform",
+                    "unitTitle": "Operate a boom type elevating work platform",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLID3036",
-                    "UnitTitle": "Lift and move load using a mobile crane",
+                    "unitTitle": "Lift and move load using a mobile crane",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLID3040",
-                    "UnitTitle": "Control lift and movement of crane",
+                    "unitTitle": "Control lift and movement of crane",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLID3043",
-                    "UnitTitle": "Shift loads using gantry equipment",
+                    "unitTitle": "Shift loads using gantry equipment",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLID3044",
-                    "UnitTitle": "Shift loads using cranes",
+                    "unitTitle": "Shift loads using cranes",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIE3002",
-                    "UnitTitle": "Estimate/calculate mass, area and quantify dimensions",
+                    "unitTitle": "Estimate/calculate mass, area and quantify dimensions",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIE3004",
-                    "UnitTitle": "Prepare workplace documents",
+                    "unitTitle": "Prepare workplace documents",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIE3012",
-                    "UnitTitle": "Consolidate manifest documentation",
+                    "unitTitle": "Consolidate manifest documentation",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIE3015",
-                    "UnitTitle": "Undertake rigger/dogger and driver communication",
+                    "unitTitle": "Undertake rigger/dogger and driver communication",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIE3016",
-                    "UnitTitle": "Estimate/calculate load shifting requirements for a mobile crane",
+                    "unitTitle": "Estimate/calculate load shifting requirements for a mobile crane",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIF0001",
-                    "UnitTitle": "Apply chain of responsibility legislation, regulations and workplace procedures",
+                    "unitTitle": "Apply chain of responsibility legislation, regulations and workplace procedures",
                     "type": "Core"
                 },
                 {
                     "unitCode": "TLIF0002",
-                    "UnitTitle": "Administer chain of responsibility policies and procedures",
+                    "unitTitle": "Administer chain of responsibility policies and procedures",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIF1001",
-                    "UnitTitle": "Follow work health and safety procedures",
+                    "unitTitle": "Follow work health and safety procedures",
                     "type": "Core"
                 },
                 {
                     "unitCode": "TLIF3003",
-                    "UnitTitle": "Implement and monitor work health and safety procedures",
+                    "unitTitle": "Implement and monitor work health and safety procedures",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIF3004",
-                    "UnitTitle": "Organise work health and safety procedures in the workplace",
+                    "unitTitle": "Organise work health and safety procedures in the workplace",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIF3022",
-                    "UnitTitle": "Implement/monitor procedures when warehousing/storing dangerous goods/hazardous substances",
+                    "unitTitle": "Implement/monitor procedures when warehousing/storing dangerous goods/hazardous substances",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIF3091",
-                    "UnitTitle": "Apply awareness of dangerous goods and hazardous materials requirements",
+                    "unitTitle": "Apply awareness of dangerous goods and hazardous materials requirements",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIG3002",
-                    "UnitTitle": "Lead a work team or group",
+                    "unitTitle": "Lead a work team or group",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIJ3002",
-                    "UnitTitle": "Apply quality systems",
+                    "unitTitle": "Apply quality systems",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIJ3005",
-                    "UnitTitle": "Sample, inspect and test products to specifications",
+                    "unitTitle": "Sample, inspect and test products to specifications",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIJ3006",
-                    "UnitTitle": "Implement grain protection procedures",
+                    "unitTitle": "Implement grain protection procedures",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIL1001",
-                    "UnitTitle": "Complete workplace orientation/induction procedures",
+                    "unitTitle": "Complete workplace orientation/induction procedures",
                     "type": "Core"
                 },
                 {
                     "unitCode": "TLIL3002",
-                    "UnitTitle": "Undertake employee payroll activities",
+                    "unitTitle": "Undertake employee payroll activities",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIL3003",
-                    "UnitTitle": "Conduct induction process",
+                    "unitTitle": "Conduct induction process",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLILIC0003",
-                    "UnitTitle": "Licence to operate a forklift truck",
+                    "unitTitle": "Licence to operate a forklift truck",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLILIC0004",
-                    "UnitTitle": "Licence to operate an order picking forklift truck",
+                    "unitTitle": "Licence to operate an order picking forklift truck",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIO2021",
-                    "UnitTitle": "Follow security procedures when working with goods and cargo",
+                    "unitTitle": "Follow security procedures when working with goods and cargo",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIO3004",
-                    "UnitTitle": "Conduct control procedures for transferring explosives/dangerous/hazardous/high risk goods",
+                    "unitTitle": "Conduct control procedures for transferring explosives/dangerous/hazardous/high risk goods",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIO3016",
-                    "UnitTitle": "Apply and monitor workplace security procedures",
+                    "unitTitle": "Apply and monitor workplace security procedures",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIP3015",
-                    "UnitTitle": "Document a records system",
+                    "unitTitle": "Document a records system",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIP3016",
-                    "UnitTitle": "Identify and classify records to be captured",
+                    "unitTitle": "Identify and classify records to be captured",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIP3019",
-                    "UnitTitle": "Provide records retrieval service",
+                    "unitTitle": "Provide records retrieval service",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIP3020",
-                    "UnitTitle": "Sentence records",
+                    "unitTitle": "Sentence records",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIP3021",
-                    "UnitTitle": "Undertake disposal program",
+                    "unitTitle": "Undertake disposal program",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIP3022",
-                    "UnitTitle": "Undertake movement of records",
+                    "unitTitle": "Undertake movement of records",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIP3023",
-                    "UnitTitle": "Destroy records",
+                    "unitTitle": "Destroy records",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIP3026",
-                    "UnitTitle": "Maintain financial records in a small business",
+                    "unitTitle": "Maintain financial records in a small business",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIU2012",
-                    "UnitTitle": "Participate in environmentally sustainable work practices",
+                    "unitTitle": "Participate in environmentally sustainable work practices",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIU3011",
-                    "UnitTitle": "Implement and monitor environmentally sustainable work practices",
+                    "unitTitle": "Implement and monitor environmentally sustainable work practices",
                     "type": "Elective"
                 },
                 {
                     "unitCode": "TLIW2018",
-                    "UnitTitle": "Operate hand held air/power equipment for pallet production processes",
+                    "unitTitle": "Operate hand held air/power equipment for pallet production processes",
                     "type": "Elective"
                 }
             ]

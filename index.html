@@ -1,11 +1,11 @@
 <!DOCTYPE html lang="en">
 <head>
     <title>JB's Simple Flyers</title>
-    <link rel="stylesheet" href="styles/editorStyle.css"/>
-    <link rel="stylesheet" href="styles/flyerStyles.css"/>
+    <link rel="stylesheet" href="pages/styles/editorStyle.css"/>
+    <link rel="stylesheet" href="pages/styles/flyerStyles.css"/>
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
-    <script src="../scripts/pdfScripts.js"></script>
-    <script src="../scripts/is.js-master/is.min.js"></script>
+    <script src="scripts/pdfScripts.js"></script>
+    <script src="scripts/is.js-master/is.min.js"></script>
 </head>
 <body>
     <div id="browserWarning" class="hidden">
@@ -17,7 +17,7 @@
                 <div class="page">
                     <!-- PDF PAGE 1 -->
                     <!--Background: -->
-                    <img class="pageBG" src="../resources/images/AutoFly BG.png"/>
+                    <img class="pageBG" src="resources/images/AutoFly BG.png"/>
 
                     <!-- Flyer Title -->
                     <div id="headerContainer" class="flyerComponent"> 
@@ -26,17 +26,17 @@
 
                     <!-- Stock image: -->
                     <div id="stockImageContainer" class="flyerComponent">
-                        <img id="stockImage" src="../resources/images/stockImages/business.jpg">
+                        <img id="stockImage" src="resources/images/stockImages/business.jpg">
                     </div>
                     
                     <!-- RTO Text and Images: -->
                     <p id="tagLogoText" class="flyerComponent">POWERED BY</p>
                     <p id="rtoLogoText" class="flyerComponent">DELIVERED BY</p>
-                    <img id="tagLogo" class="flyerComponent" src="../resources/images/RTOs/Training Alliance.png"/>
+                    <img id="tagLogo" class="flyerComponent" src="resources/images/RTOs/Training Alliance.png"/>
 
-                    <img id="ABVLogo" class="flyerComponent hidden" src="../resources/images/RTOs/ABV.png"/>
-                    <img id="MTACSLogo" class="flyerComponent hidden" src="../resources/images/RTOs/MTACS - large.png" />
-                    <img id="SSTLogo" class="flyerComponent hidden" src="../resources/images/RTOs/Stirling Skills Training Logo.png"/>
+                    <img id="ABVLogo" class="flyerComponent hidden" src="resources/images/RTOs/ABV.png"/>
+                    <img id="MTACSLogo" class="flyerComponent hidden" src="resources/images/RTOs/MTACS - large.png" />
+                    <img id="SSTLogo" class="flyerComponent hidden" src="resources/images/RTOs/Stirling Skills Training Logo.png"/>
 
                     <!--Contact Us: -->
                     <div id="contactUs" class="flyerComponent">
@@ -81,10 +81,10 @@
 
                     <!-- Compliance Images -->
                     <div id="complianceImagesContainer" class="flyerComponent">
-                        <img id="jobSkillsLogo" src="../resources/images/complianceImages/jswa_primary_logo.jpg"/>
-                        <img id="skillsReadyLogo" src="../resources/images/complianceImages/jswa_skillsready_txt.jpg"/>
-                        <img id="LFLSLogo" src="../resources/images/complianceImages/LFLS_small.jpg"/>
-                        <img id="NRTLogo" src="../resources/images/complianceImages/nationally recognised training logo.png"/>
+                        <img id="jobSkillsLogo" src="resources/images/complianceImages/jswa_primary_logo.jpg"/>
+                        <img id="skillsReadyLogo" src="resources/images/complianceImages/jswa_skillsready_txt.jpg"/>
+                        <img id="LFLSLogo" src="resources/images/complianceImages/LFLS_small.jpg"/>
+                        <img id="NRTLogo" src="resources/images/complianceImages/nationally recognised training logo.png"/>
                     </div>
 
                     <!-- RTO Information -->
@@ -98,7 +98,7 @@
                 <div class="page">
                     <!-- PDF PAGE 2 -->
                     <!-- Background: -->
-                    <img class="pageBG" src="../resources/images/AutoFly BG 2.png"/>
+                    <img class="pageBG" src="resources/images/AutoFly BG 2.png"/>
 
                     <!-- Flyer Title and website link -->
                     <p id="secondaryFlyerHeader" class="flyerComponent centered headerText">Flyer Title</p>
@@ -158,19 +158,19 @@
                         <h2>RTO & Course</h2>
                     </div>
                     <div class="dropper">
-                        <img class="dropperImage" src="../resources/images/down_arrow.png"/>
+                        <img class="dropperImage" src="resources/images/down_arrow.png"/>
                     </div>
                     <div class="content">
                         <div id="sidebarInputsRTO" class="logoSelector" onchange="RTOSelect()">
 
                             <input type="radio" id="abv" name="RTOSelect" required="">
-                            <label for="abv"><img src="../resources/images/RTOs/ABV.png"/></label>
+                            <label for="abv"><img src="resources/images/RTOs/ABV.png"/></label>
 
                             <input type="radio" id="mtacs" name="RTOSelect" required="">
-                            <label for="mtacs"><img src="../resources/images/RTOs/MTACS - large.png" style="padding: 20% 0;"/></label>
+                            <label for="mtacs"><img src="resources/images/RTOs/MTACS - large.png" style="padding: 20% 0;"/></label>
 
                             <input type="radio" id="sst" name="RTOSelect" required="">
-                            <label for="sst"><img src="../resources/images/RTOs/Stirling Skills Training Logo.png"/></label>
+                            <label for="sst"><img src="resources/images/RTOs/Stirling Skills Training Logo.png"/></label>
                         </div>
                         <div id="courseSelector" onchange="courseSelect()" class="pure-form">
                             <h3>Course:</h3>
@@ -204,7 +204,7 @@
                         <h2>General Info</h2>
                     </div>
                     <div class="dropper">
-                        <img class="dropperImage" src="../resources/images/down_arrow.png"/>
+                        <img class="dropperImage" src="resources/images/down_arrow.png"/>
                     </div>
                     <div class="content" class="collapsed">
                         <div id="courseDetailsContainer" class="pure-form">
@@ -242,7 +242,7 @@
                         <h2>Units</h2>
                     </div>
                     <div class="dropper">
-                        <img class="dropperImage" src="../resources/images/down_arrow.png"/>
+                        <img class="dropperImage" src="resources/images/down_arrow.png"/>
                     </div>
                     <div class="content">
                         <div id="unitSelector" onchange="unitSelect()">
@@ -261,7 +261,7 @@
                         <h2>Contact</h2>
                     </div>
                     <div class="dropper">
-                        <img class="dropperImage" src="../resources/images/down_arrow.png"/>
+                        <img class="dropperImage" src="resources/images/down_arrow.png"/>
                     </div>
                     <div class="content">
                         <div id="contactSelector" onchange="contactSelect()" class="pure-form">
@@ -284,21 +284,21 @@
                         <h2>Third-party Logos</h2>
                     </div>
                     <div class="dropper">
-                        <img class="dropperImage" src="../resources/images/down_arrow.png"/>
+                        <img class="dropperImage" src="resources/images/down_arrow.png"/>
                     </div>
                     <div class="content">
                         <div id="complianceLogoSelector" class="logoSelector" onchange="complianceLogoSelect()" class="fure-form">
                             <input type="checkbox" id="jobsAndSkillsSelector" name="complianceSelect" checked="true"/>
-                            <label for="jobsAndSkillsSelector"><img id="jobsAndSkillsLogoSelector" src="../resources/images/complianceImages/jswa_primary_logo.jpg"></label>
+                            <label for="jobsAndSkillsSelector"><img id="jobsAndSkillsLogoSelector" src="resources/images/complianceImages/jswa_primary_logo.jpg"></label>
 
                             <input type="checkbox" id="skillsReadySelector" name="complianceSelect" checked="true"/>
-                            <label for="skillsReadySelector"><img id="skillsReadyLogoSelector" src="../resources/images/complianceImages/jswa_skillsready_txt.jpg"></label>
+                            <label for="skillsReadySelector"><img id="skillsReadyLogoSelector" src="resources/images/complianceImages/jswa_skillsready_txt.jpg"></label>
 
                             <input type="checkbox" id="LFLSSelector" name="complianceSelect"/ checked="true">
-                            <label for="LFLSSelector"><img id="LFLSLogoSelector" src="../resources/images/complianceImages/LFLS_small.jpg"></label>
+                            <label for="LFLSSelector"><img id="LFLSLogoSelector" src="resources/images/complianceImages/LFLS_small.jpg"></label>
 
                             <input type="checkbox" id="NRTSelector" name="complianceSelect" checked="true"/>
-                            <label for="NRTSelector"><img id="NRTLogoSelector" src="../resources/images/complianceImages/nationally recognised training logo.png"></label>
+                            <label for="NRTSelector"><img id="NRTLogoSelector" src="resources/images/complianceImages/nationally recognised training logo.png"></label>
                         </div>
                     </div>
                 </div>
@@ -307,7 +307,7 @@
                         <h2>Compliance</h2>
                     </div>
                     <div class="dropper">
-                        <img class="dropperImage" src="../resources/images/down_arrow.png"/>
+                        <img class="dropperImage" src="resources/images/down_arrow.png"/>
                     </div>
                     <div class="content" class="collapsed">
                         <div id="complianceContainer" class="pure-form" onchange="complianceInfoSelect()">

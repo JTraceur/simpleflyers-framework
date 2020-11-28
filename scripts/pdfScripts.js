@@ -6,7 +6,7 @@ function pdfExport(){
     previewPDF = document.getElementById("pageContainer");
     exportHTML = `
         <head>
-            <link rel="stylesheet" href="styles/flyerStyles.css"/>
+            <link rel="stylesheet" href="pages/styles/flyerStyles.css"/>
         </head>
         <body>` + previewPDF.innerHTML + `</body>`;
 

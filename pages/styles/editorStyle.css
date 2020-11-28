@@ -111,7 +111,6 @@ label img {
 
 .logoSelector {
     display: grid;
-    height: 100%;
     grid-template-columns: max-content auto;
     grid-template-rows: auto auto auto;
 }

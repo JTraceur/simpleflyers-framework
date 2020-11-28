@@ -448,7 +448,7 @@ var editingFlyer = new Proxy(new flyer("null", "Course Title"), watcher); //Glob
 
 //Fetch courses and their units:
 courses = undefined;
-fetch("../resources/dataResources/coursesAndUnits.json")
+fetch("resources/dataResources/coursesAndUnits.json")
     .then(response => response.json())
     .then(data => courses = data.courses);
 
